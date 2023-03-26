@@ -24,9 +24,9 @@ author_profile: true
 
 - Xiang Liu, **Naiqi Li**, Shu-Tao Xia, GDTW: A Novel Differentiable DTW Loss For Time Series Tasks. In International Conference on Acoustics, Speech and Signal Processing (ICASSP-21), 2021. 
 
-- **Naiqi Li***, Wenjie Li*, Jifeng Sun, Yinghua Gao, Yong Jiang and Shu-Tao Xia, Stochastic Deep Gaussian Processes over Graphs. In Advances in Neural Information Processing Systems (NeurIPS-20), 2020. 
+- **Naiqi Li** *, Wenjie Li *, Jifeng Sun, Yinghua Gao, Yong Jiang and Shu-Tao Xia, Stochastic Deep Gaussian Processes over Graphs. In Advances in Neural Information Processing Systems (NeurIPS-20), 2020. 
 
-- Yinghua Gao*, **Naiqi Li***, Ning Ding, Yiming Li, Tao Dai and Shu-Tao Xia, Generalized Local Aggregation for Large Scale Gaussian Process Regression. In the International Joint Conference on Neural Networks (IJCNN-20), 2020.
+- Yinghua Gao *, **Naiqi Li** *, Ning Ding, Yiming Li, Tao Dai and Shu-Tao Xia, Generalized Local Aggregation for Large Scale Gaussian Process Regression. In the International Joint Conference on Neural Networks (IJCNN-20), 2020.
 
 - Peiming Mo, **Naiqi Li** and Yongmei Liu. Automatic Verification of Golog Programs via Predicate Abstraction. In Proceedings of the 22nd European Conference on Artificial Intelligence (ECAI-16), 2016. 
 
