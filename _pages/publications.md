@@ -14,7 +14,7 @@ author_profile: true
 - **Naiqi Li**, Zhikang Xia, Yiming Li, Ercan E. Kuruoglu, Yong Jiang and Shu-Tao Xia, Portfolio Selection via Graph-aware Gaussian Process Regression with Generalized Gaussian Likelihood, IEEE Transaction on Artificial Intelligence, 2023.
 
 - Guanghao Meng, Tao Dai, Bin Chen, **Naiqi Li**, Yong Jiang and Shu-Tao Xia, Difficulty-Aware Data Augmentor for Scene Text Recognition, In International Conference on Acoustics, Speech and Signal Processing (ICASSP-23), 2023. 
-- **Naiqi Li***, Wenjie Li*, Yong Jiang and Shu-Tao Xia, Deep Dirichlet Process Mixture Models. In Conference on Uncertainty in Artificial Intelligence (UAI-22), 2022.
+- **Naiqi Li** *, Wenjie Li *, Yong Jiang and Shu-Tao Xia, Deep Dirichlet Process Mixture Models. In Conference on Uncertainty in Artificial Intelligence (UAI-22), 2022.
 
 - Lu Si, **Naiqi Li**, Tongyu Huang, Shan Du, Yang Dong, Yue Yao, Hui Ma, Computational image translation from Mueller matrix polarimetry to bright-field microscopy. Journal of Biophotonics, 2021.
 
