@@ -1,9 +1,285 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T09:50:11+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)</title><link href="http://localhost:4000/2024/12/01/dnf.html" rel="alternate" type="text/html" title="DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)" /><published>2024-12-01T00:00:00+08:00</published><updated>2024-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/01/dnf</id><content type="html" xml:base="http://localhost:4000/2024/12/01/dnf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="动画" /><category term="生成" /><summary type="html"><![CDATA[We propose DNF, a dictionary-based representation for the unconditional generation of 4D deforming shapes, with a transformer-based diffusion model. Our method is capable of generating motions with superior shape quality and temporal consistency.]]></summary></entry><entry><title type="html">LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)</title><link href="http://localhost:4000/2024/10/28/lcm.html" rel="alternate" type="text/html" title="LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)" /><published>2024-10-28T00:00:00+08:00</published><updated>2024-10-28T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/28/lcm</id><content type="html" xml:base="http://localhost:4000/2024/10/28/lcm.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="点云" /><summary type="html"><![CDATA[We propose a Locally constrained Compact point cloud Model (LCM) consisting of a locally constrained compact encoder and a locally constrained Mamba-based decoder. Our encoder replaces self-attention with our local aggregation layers to achieve an elegant balance between performance and efficiency. Considering the varying information density between masked and unmasked patches in the decoder inputs of MPM, we introduce a locally constrained Mamba-based decoder. This decoder ensures linear complexity while maximizing the perception of point cloud geometry information from unmasked patches with higher information density. Extensive experimental results show that our compact model significantly surpasses existing Transformer-based models in both performance and efficiency, especially our LCM-based Point-MAE model, compared to the Transformer-based model, achieved an improvement of 1.84%, 0.67%, and 0.60% in average accuracy on the three variants of ScanObjectNN while reducing parameters by 88% and computation by 73%.]]></summary></entry><entry><title type="html">GBDT</title><link href="http://localhost:4000/2024/10/16/gbdt.html" rel="alternate" type="text/html" title="GBDT" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/gbdt</id><content type="html" xml:base="http://localhost:4000/2024/10/16/gbdt.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-04T19:39:40+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse.html"><![CDATA[<p>Qniverse（<b>Q</b>uantitative Trading’s U<b>niverse</b>）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。</p>
+
+<p>目前系统已以下算法，并对其中表现较好的若干策略进行每日实时回测。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">算法名称</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">算法类型</th>
+      <th style="text-align: center">回测结果</th>
+      <th style="text-align: center">持续更新</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">GBDT</td>
+      <td style="text-align: center">2017</td>
+      <td style="text-align: center">信号预测</td>
+      <td style="text-align: center"><a href="/2024/10/16/gbdt.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">TCO</td>
+      <td style="text-align: center">2017</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/tco.html">查看</a></td>
+      <td style="text-align: center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">WMAMR</td>
+      <td style="text-align: center">2013</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/wmamr.html">查看</a></td>
+      <td style="text-align: center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">OLMAR</td>
+      <td style="text-align: center">2012</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/olmar.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">PAMR</td>
+      <td style="text-align: center">2012</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/pamr.html">查看</a></td>
+      <td style="text-align: center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">CORN</td>
+      <td style="text-align: center">2011</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/corn.html">查看</a></td>
+      <td style="text-align: center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">BNN</td>
+      <td style="text-align: center">2006</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/bnn.html">查看</a></td>
+      <td style="text-align: center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">ONS</td>
+      <td style="text-align: center">2006</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/ons.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Anticor</td>
+      <td style="text-align: center">2004</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/anticor.html">查看</a></td>
+      <td style="text-align: center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">EG</td>
+      <td style="text-align: center">1998</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/eg.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">UP</td>
+      <td style="text-align: center">1991</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/up.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Kelly</td>
+      <td style="text-align: center">1956</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/kelly.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">MPT</td>
+      <td style="text-align: center">1952</td>
+      <td style="text-align: center">投资组合优化</td>
+      <td style="text-align: center"><a href="/2024/10/16/mpt.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- <br>
+
+## 信号预测算法
+
+### GBDT
+
+简介：TODO
+
+[实时测试](/2024/10/16/gbdt.html)
+
+## 投资组合优化算法
+
+### OLMAR
+
+简介：TODO
+
+[实时测试](/2024/10/16/olmar.html)
+
+
+### Kelly
+
+简介：TODO
+
+[实时测试](/2024/10/16/kelly.html)
+
+### UP
+
+简介：TODO
+
+[实时测试](/2024/10/16/up.html)
+
+### ONS
+
+简介：TODO
+
+[实时测试](/2024/10/16/ons.html) -->]]></content><author><name></name></author><category term="开源项目" /><category term="更新中" /><summary type="html"><![CDATA[Qniverse（Quantitative Trading's Universe）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。]]></summary></entry><entry><title type="html">DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)</title><link href="http://localhost:4000/2024/12/01/dnf.html" rel="alternate" type="text/html" title="DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)" /><published>2024-12-01T00:00:00+08:00</published><updated>2024-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/01/dnf</id><content type="html" xml:base="http://localhost:4000/2024/12/01/dnf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="动画" /><category term="生成" /><summary type="html"><![CDATA[We propose DNF, a dictionary-based representation for the unconditional generation of 4D deforming shapes, with a transformer-based diffusion model. Our method is capable of generating motions with superior shape quality and temporal consistency.]]></summary></entry><entry><title type="html">LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)</title><link href="http://localhost:4000/2024/10/28/lcm.html" rel="alternate" type="text/html" title="LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)" /><published>2024-10-28T00:00:00+08:00</published><updated>2024-10-28T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/28/lcm</id><content type="html" xml:base="http://localhost:4000/2024/10/28/lcm.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="点云" /><summary type="html"><![CDATA[We propose a Locally constrained Compact point cloud Model (LCM) consisting of a locally constrained compact encoder and a locally constrained Mamba-based decoder. Our encoder replaces self-attention with our local aggregation layers to achieve an elegant balance between performance and efficiency. Considering the varying information density between masked and unmasked patches in the decoder inputs of MPM, we introduce a locally constrained Mamba-based decoder. This decoder ensures linear complexity while maximizing the perception of point cloud geometry information from unmasked patches with higher information density. Extensive experimental results show that our compact model significantly surpasses existing Transformer-based models in both performance and efficiency, especially our LCM-based Point-MAE model, compared to the Transformer-based model, achieved an improvement of 1.84%, 0.67%, and 0.60% in average accuracy on the three variants of ScanObjectNN while reducing parameters by 88% and computation by 73%.]]></summary></entry><entry><title type="html">OLMAR</title><link href="http://localhost:4000/2024/10/16/olmar.html" rel="alternate" type="text/html" title="OLMAR" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/olmar</id><content type="html" xml:base="http://localhost:4000/2024/10/16/olmar.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="/img/project/quniverse/tmp/gdbt_info.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/OLMAR_info.png" />
+</div>
+
+<h2 id="回测结果报告">回测结果报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/OLMAR_rg_0.jpg" />
+</div>
+
+<h2 id="风险分析报告">风险分析报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/OLMAR_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/OLMAR_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/OLMAR_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/OLMAR_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/OLMAR_rag_4.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">UP</title><link href="http://localhost:4000/2024/10/16/up.html" rel="alternate" type="text/html" title="UP" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/up</id><content type="html" xml:base="http://localhost:4000/2024/10/16/up.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+
+<p>模型更新日期和预测日期：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_info.png" />
+</div>
+
+<h2 id="回测结果报告">回测结果报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rg_0.jpg" />
+</div>
+
+<h2 id="风险分析报告">风险分析报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_4.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">ANTICOR</title><link href="http://localhost:4000/2024/10/16/anticor.html" rel="alternate" type="text/html" title="ANTICOR" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/anticor</id><content type="html" xml:base="http://localhost:4000/2024/10/16/anticor.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+
+<p>模型更新日期和预测日期：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/ANTICOR_info.png" />
+</div>
+
+<h2 id="回测结果报告">回测结果报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/ANTICOR_rg_0.jpg" />
+</div>
+
+<h2 id="风险分析报告">风险分析报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/ANTICOR_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/ANTICOR_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/ANTICOR_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/ANTICOR_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/ANTICOR_rag_4.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">BNN</title><link href="http://localhost:4000/2024/10/16/bnn.html" rel="alternate" type="text/html" title="BNN" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/bnn</id><content type="html" xml:base="http://localhost:4000/2024/10/16/bnn.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+
+<p>模型更新日期和预测日期：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BNN_info.png" />
+</div>
+
+<h2 id="回测结果报告">回测结果报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BNN_rg_0.jpg" />
+</div>
+
+<h2 id="风险分析报告">风险分析报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BNN_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BNN_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BNN_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BNN_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BNN_rag_4.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">CORN</title><link href="http://localhost:4000/2024/10/16/corn.html" rel="alternate" type="text/html" title="CORN" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/corn</id><content type="html" xml:base="http://localhost:4000/2024/10/16/corn.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+
+<p>模型更新日期和预测日期：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_info.png" />
+</div>
+
+<h2 id="回测结果报告">回测结果报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rg_0.jpg" />
+</div>
+
+<h2 id="风险分析报告">风险分析报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_4.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">EG</title><link href="http://localhost:4000/2024/10/16/eg.html" rel="alternate" type="text/html" title="EG" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/eg</id><content type="html" xml:base="http://localhost:4000/2024/10/16/eg.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+
+<p>模型更新日期和预测日期：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_info.png" />
+</div>
+
+<h2 id="回测结果报告">回测结果报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rg_0.jpg" />
+</div>
+
+<h2 id="风险分析报告">风险分析报告</h2>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_4.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">GBDT</title><link href="http://localhost:4000/2024/10/16/gbdt.html" rel="alternate" type="text/html" title="GBDT" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/gbdt</id><content type="html" xml:base="http://localhost:4000/2024/10/16/gbdt.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+
+<p>模型更新日期和预测日期：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gdbt_info.png" />
 </div>
 
 <h2 id="信号预测结果">信号预测结果</h2>
@@ -11,571 +287,39 @@
 <p>未来1日信号预测排序前10：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="/img/project/quniverse/tmp/gdbt_top10.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gdbt_top10.png" />
 </div>
 
 <p>未来1日信号预测排序末10：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="/img/project/quniverse/tmp/gdbt_bottom10.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gdbt_bottom10.png" />
 </div>
 
 <h2 id="回测结果报告">回测结果报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="/img/project/quniverse/tmp/gbdt_rg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rg_0.jpg" />
 </div>
 
 <h2 id="风险分析报告">风险分析报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="/img/project/quniverse/tmp/gbdt_rag_0.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_rag_1.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_rag_2.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_rag_3.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_rag_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_4.jpg" />
 </div>
 
 <h2 id="信号预测模型评估">信号预测模型评估</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="/img/project/quniverse/tmp/gbdt_sig_0.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_mpg_0.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_mpg_1.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_mpg_2.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_mpg_3.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_mpg_4.jpg" />
-<img src="/img/project/quniverse/tmp/gbdt_mpg_5.jpg" />
-</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/10/16/qniverse.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/qniverse</id><content type="html" xml:base="http://localhost:4000/2024/10/16/qniverse.html"><![CDATA[<h2 id="信号预测算法">信号预测算法</h2>
-
-<h3 id="gbdt">GBDT</h3>
-
-<p>简介：TODO</p>
-
-<p><a href="/2024/10/16/gbdt.html">实时测试</a></p>]]></content><author><name></name></author><category term="开源项目" /><category term="更新中" /><summary type="html"><![CDATA[Qniverse（Quantitative Trading's Universe）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。]]></summary></entry><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/10/16/qniverse-en.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/qniverse-en</id><content type="html" xml:base="http://localhost:4000/2024/10/16/qniverse-en.html"><![CDATA[<h2 id="信号预测算法">信号预测算法</h2>
-
-<h3 id="gbdt">GBDT</h3>
-
-<p>简介：TODO</p>
-
-<p><a href="/2024/10/16/gbdt.html">实时测试</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Qniverse (Quantitative Trading's Universe) is an open-source quantitative trading algorithm project based on cutting-edge artificial intelligence and machine learning technologies. The project covers a wide range of techniques, from traditional methods to deep neural networks, and aims to build a unified framework that provides a fair, transparent, and open backtesting and evaluation system for various types of quantitative algorithms. At the same time, the project adapts existing open-source quantitative trading libraries to facilitate flexible use and efficient testing for a wide range of developers.]]></summary></entry><entry><title type="html">DDN: Dual-domain Dynamic Normalization for Non-stationary Time Series Forecasting (NeurIPS 2024)</title><link href="http://localhost:4000/2024/08/17/ddn.html" rel="alternate" type="text/html" title="DDN: Dual-domain Dynamic Normalization for Non-stationary Time Series Forecasting (NeurIPS 2024)" /><published>2024-08-17T00:00:00+08:00</published><updated>2024-08-17T00:00:00+08:00</updated><id>http://localhost:4000/2024/08/17/ddn</id><content type="html" xml:base="http://localhost:4000/2024/08/17/ddn.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="时序" /><summary type="html"><![CDATA[In this paper, we introduce a novel Dual-domain Dynamic Normalization (DDN) framework designed to address the challenge of dynamically capturing distribution variations across time and frequency domains. DDN operates in a sliding window fashion, enabling it to detect subtle, time-varying changes in data distributions. DDN performs time-domain normalization to compute local sliding statistics (mean and standard deviation) at each time step, offering a fine-grained approach compared to traditional methods that operate at a coarser level.]]></summary></entry><entry><title type="html">Periodicity Decoupling Framework for Long-term Series Forecasting (ICLR 2024)</title><link href="http://localhost:4000/2024/05/24/pdf.html" rel="alternate" type="text/html" title="Periodicity Decoupling Framework for Long-term Series Forecasting (ICLR 2024)" /><published>2024-05-24T00:00:00+08:00</published><updated>2024-05-24T00:00:00+08:00</updated><id>http://localhost:4000/2024/05/24/pdf</id><content type="html" xml:base="http://localhost:4000/2024/05/24/pdf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="时序" /><summary type="html"><![CDATA[Quantitatively, compared with Transformer-based models, PDF (720) yields an overall 14.59% reduction in MSE and 10.77% reduction in MAE. Compared with CNN-based models, PDF (720) yields an overall 24.61% reduction in MSE and 19.91% reduction in MAE. Compared with Linear-based models, PDF (720) yields an overall 7.05% reduction in MSE and 5.51% reduction in MAE.]]></summary></entry><entry><title type="html">CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning (arXiv)</title><link href="http://localhost:4000/2024/03/23/calf.html" rel="alternate" type="text/html" title="CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning (arXiv)" /><published>2024-03-23T00:00:00+08:00</published><updated>2024-03-23T00:00:00+08:00</updated><id>http://localhost:4000/2024/03/23/calf</id><content type="html" xml:base="http://localhost:4000/2024/03/23/calf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="时序" /><category term="LLM" /><summary type="html"><![CDATA[We propose a novel Cross-Modal LLM Fine-Tuning (CALF) framework for MTSF by reducing the distribution discrepancy between textual and temporal data, which mainly consists of the temporal target branch with temporal input and the textual source branch with aligned textual input. To reduce the distribution discrepancy, we develop the cross-modal match module to first align cross-modal input distributions. Additionally, to minimize the modality distribution gap in both feature and output spaces, feature regularization loss is developed to align the intermediate features between the two branches for better weight updates, while output consistency loss is introduced to allow the output representations of both branches to correspond effectively.]]></summary></entry><entry><title type="html">Unsupervised Surface Anomaly Detection with Diffusion Probabilistic Model (ICCV 2023)</title><link href="http://localhost:4000/2023/10/04/diffad.html" rel="alternate" type="text/html" title="Unsupervised Surface Anomaly Detection with Diffusion Probabilistic Model (ICCV 2023)" /><published>2023-10-04T00:00:00+08:00</published><updated>2023-10-04T00:00:00+08:00</updated><id>http://localhost:4000/2023/10/04/diffad</id><content type="html" xml:base="http://localhost:4000/2023/10/04/diffad.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="异常检测" /><summary type="html"><![CDATA[In this project, we propose DiffAD, a method for unsupervised anomaly detection based on the latent diffusion model, inspired by its ability to generate high-quality and diverse images. We further propose noisy condition embedding and interpolated channels to address the aforementioned challenges in the general reconstruction-based pipeline. Extensive experiments show that our method achieves state-of-the-art performance on the challenging MVTec dataset, especially in localization accuracy.]]></summary></entry><entry><title type="html">图灵谋杀</title><link href="http://localhost:4000/2020/01/01/%E5%9B%BE%E7%81%B5%E8%B0%8B%E6%9D%80.html" rel="alternate" type="text/html" title="图灵谋杀" /><published>2020-01-01T00:00:00+08:00</published><updated>2020-01-01T00:00:00+08:00</updated><id>http://localhost:4000/2020/01/01/%E5%9B%BE%E7%81%B5%E8%B0%8B%E6%9D%80</id><content type="html" xml:base="http://localhost:4000/2020/01/01/%E5%9B%BE%E7%81%B5%E8%B0%8B%E6%9D%80.html"><![CDATA[<h1 id="1">1</h1>
-
-<p>“亚蒂博士，你已经考虑将近二十分钟了。在五百多名观众的面前，是不是显得长了一点。”</p>
-
-<p>沉浸在思考中的亚蒂博士浑身一震，这才想起自己此时身在何处。</p>
-
-<p>“投票吧，亚蒂博士。”那个人继续说，“你决定要谋杀哪个房间里的测试者？左边，还是右边？”</p>
-
-<p>亚蒂博士盯着面前的桌子：正中放置着一张纸，上面记载着各种各样弯曲变形的、只有亚蒂博士自己才能看懂的符号；鹅毛笔插在紫蓝墨水瓶里，整洁地搁在右上角触手能及的地方；但桌上的一切都比不上左右两侧的按钮更加惹人注目——两个按钮呈圆拱型，有拳头般的大小，左边一侧为蓝色的，右边则为红色。</p>
-
-<p>再次犹豫将近半分钟后，亚蒂博士终于做出决定。</p>
-
-<p>他按下了右边的红色按钮。</p>
-
-<p>“谋杀右边。”他说。</p>
-
-<p>亚蒂博士面对着一间巨大的铁屋子，方方正正，是一个标准的立方体。铁房子的正面既没有门，也没有窗，就是那么一个没头没脑的巨大的金属怪物——唯一的入口在铁房子背后，所有人视线所无法涉及的地方。亚蒂博士和其他一共31位科学家呈扇形围坐在铁屋子前；五百多名来观看谋杀的观众则围坐在他们身后，组成一个更大的扇面。</p>
-
-<p>铁屋子前面高挂着一个电子计分屏幕，挂在很高、所有人都能看见的地方。此时数字抖动了一下，15：16，亚蒂博士最后具有决定性的一票投给了右边。</p>
-
-<p>“谋杀右边！”观众席变得沸沸扬扬，“亚蒂博士最后投给了右边！”</p>
-
-<p>所有人的神经紧绷到了极致，期待着最后的结果。最紧张的人固然是坐在正中评判席上的亚蒂博士，他看着眼前的铁屋，双唇紧紧地合着，一言不发。</p>
-
-<p>“嘭！——”铁屋子的右侧传来了巨大的枪响，火药爆炸声可称得上是震耳欲聋。两个身穿黑色制服，警察装束的人绕到铁房子后门走了进去——他们是这次谋杀的公证人。</p>
-
-<p>亚蒂博士浑身冰凉，他知道自己已经失败了。</p>
-
-<p>不一会，两位公证人回到了众人的视线之中。其中一人拿着麦克风，经过短暂故弄玄虚的沉默之后，他说：</p>
-
-<p>“谋杀已经结束了。死去的是——”</p>
-
-<p>所有人伸长脖子，等着他嘴唇最后蹦出的音节。</p>
-
-<p>“机器人。”</p>
-
-<p>观众席上大多数人狂热地欢呼起来，他们从座位上站起身鼓掌相庆，有人甚至迫不及待地打开了准备好的香槟，泡沫也在欢快地向外面涌出着。当他们凯旋的英雄从铁屋子侧面出现的那一刹那，庆祝的热烈气氛达到了高潮。</p>
-
-<p>“斯托克先生！斯托克先生！”人们高呼着他们英雄的名字。</p>
-
-<p>①	作品启发自人工智能的始祖阿兰·图灵提出的“图灵测试”：将一个人和一个计算机放在不同的两个屋子里，然后再让一个测试者去和他们交流，如果测试者分不出哪个是人哪个是计算机，那么就说明计算机能思考。
-②	
-一个少女手里捧着大束鲜花，挤开人群冲到了斯托克先生面前，未等他拒绝便亲吻在了他的面颊上，这意外的举动让现场变得更加喜庆。友善笑声说明，大家认为这样奖励对于斯托克来说是毫不过分的。</p>
-
-<p>斯托克本人也十分高兴，在与少女短暂的拥抱之后，他匆匆地走向为他欢呼的人群。</p>
-
-<p>只是在经过亚蒂博士的评委席时，他稍微的停顿了一下脚步。</p>
-
-<p>“作为对手，你三十年以来对我持之不懈的失败谋杀，令人钦佩。”</p>
-
-<p>说完这句话之后，斯托克带着愚弄般的微笑，与亚蒂博士擦身而过。</p>
-
-<h1 id="2">2</h1>
-
-<p>如果你是第一次穿过重重障碍来到这片被人遗忘的大陆上，或许一时不清楚这里正在发生写什么。但只要稍微向旁边的人打听一下，你很快就能明白，这里正在进行一场谋杀——图灵谋杀。</p>
-
-<p>图灵谋杀的历史既是漫长的，也是短暂的。</p>
-
-<p>图灵谋杀的原型早在三个多世纪前就出现了。一位叫做图灵的人提出了“图灵测试”，其目的在于甄别机器生命是否达到了人类的智能水平：一个机器人仅仅能够击败象棋大师，就算作有智能吗？显然不行。如果机器人能够阅读、理解、推理，甚至创作诗歌和乐曲，就算作有智能吗？似乎也不尽然。到底如何判断一个机械生命拥有智能？图灵给出了一个精妙、简单的解答：让一个机器人和一个人类进入两个不同的屋子里，由一个评委分别去和他们交谈，如果评委不能分辨出哪个是机器人，哪个是人类，则说明那个机器人拥有了人类的智能。当图灵第一次用清晰明辨的语言表达了这个天才的想法之后，人们似乎看见一扇新的门出现在了人工智能的世界里。</p>
-
-<p>可三个世纪过去了，那扇门就在那里紧紧闭合着。无数人试图叩响它、推开它，想看看那扇门之后的世界究竟会是什么样子，但他们都失败了——直到亚蒂博士的出现。</p>
-
-<p>亚蒂博士提出了新的人工智能理念：他不再是要模拟一个人，而是要创建一个人、复制一个人。这涉及到超越那片大陆所能理解的众多学科：神经科学、生物仿真、智能算法……但亚蒂博士做到了。他的助手依旧记得当亚蒂博士的第一个机器人“艾莉丝”睁开双眼时，他那声伴随着晶莹泪光的欢呼：“这是我们的女儿，艾莉丝！”助手们知道，亚蒂博士希望天国里的妻子能够听到这声欢呼——“如果我们有了一个女儿，要给她起名叫艾莉丝！”这是他们曾经的约定。</p>
-
-<p>伴随着艾莉丝的诞生，智能革命的时代到来了。成百上千个机器人从流水线走了下来，它们进入工厂、进入矿区、进入贵族的庄园。机器人的发展超出了所有人的预期，以至于国会开始讨论这样的一个问题——是否应该赋予机器人相应的社会权利？一位国会议员起草的议案，《智能机器人社会权利草案》（简称《智人草案》），宣告了这场将近世纪之久的大辩论之开端。</p>
-
-<p>一夜之间所有人惊讶地发现，他们不由自主地卷入了某个党派之中：保守党或智人党。从党派的名字似乎就可以知道他们的立场：保守党认为再高智能的机器也不过是机器，只能服从于人类；而智人党则反映了少数理想主义者对未来的憧憬，一个机器人与人类平等生存的未来。</p>
-
-<p>辩论愈演愈烈，焦点也渐渐明朗，那就是：机器人究竟是否达到了人类的智能，像人类一样地思考？两个党派就这一论点互不让步，冲突愈演愈烈。最后，两个党派的党员彼此被对手的顽固和愚蠢震怒了，双方决定通过一种终极的方式来解决争端——这就是图灵谋杀！</p>
-
-<p>在国会大厦的档案馆里，至今保存着二十年前两个党派共同签署的协约，这后来成为了173号宪法修正案。一份当时的日报的头版，记录了这条修正案的提出、通过，以及图灵谋杀的完整流程。以下就是它的部分内容：</p>
-
-<blockquote>
-  <p>标题新闻：《图灵谋杀修正案》这会改变世界吗？</p>
-
-  <p>——国会今日高票通过173号宪法修正案</p>
-
-  <p>……</p>
-
-  <p>经议员的提案、国会的投票、最高法院的认可、以及首相的最终签名，173号宪法修正案终于在今天早上十一时获得通过。173号宪法修正案，别名亦称“图灵谋杀修正案”。</p>
-
-  <ul>
-    <li>
-      <p>当机器人认为自己的智能与人类相当，可以进行公开“声明”。公民可以在“声明”后的三十个工作日之内申请进行“图灵谋杀”挑战，如果人类挑战胜利，则本年度所有机器人将失去一切法律保障，任由人类驱使奴役。如果三十个工作日之内，没有公民对“声明”提出“挑战”，或者所有的“挑战”都遭到失败，那么本年度所有的机器人将享有完整的公民权利，包括人身自由、私有财产不受侵犯、基本政治权利等。</p>
-    </li>
-    <li>
-      <p>图灵谋杀旨在验证机器人已经具有与人类相等的智能。机器人与人类进入相互隔绝的密闭房间，31名评委依次对他们提出问题。如果评委能够通过回答正确判断出哪个是人类，哪个是机器人，则人类“挑战”方获胜；如果评委对判断错误，则机器人“声明”方获胜。</p>
-    </li>
-    <li>
-      <p>评委的最终决定服从多数投票制。为显示法律的公正与神圣，被判定为“机器人”的一方必须在房间内自裁，只有成功使评委相信自己是人类的一方才能在图灵谋杀中生还。</p>
-    </li>
-  </ul>
-
-  <p>……</p>
-</blockquote>
-
-<p>很少人有兴趣关心修正案的其它细节，但斯托克不一样。从十八岁那一年开始，修正案中的每一句话对他而言，早已是烂熟于心。</p>
-
-<h1 id="3">3</h1>
-
-<p>斯托克直至今日，依旧记得他第一次进行图灵谋杀时的场景，那是一个转折点，无论是对于他的人生还是对于整个社会。令人铭记的时刻在他脑海中如此的清晰，以至于一切都像在今天早上刚刚发生过一样。</p>
-
-<p>那是在二十年前，他还是个十八岁的少年。亚蒂博士也还很年轻，大概三十出头，如果斯托克的父亲还在世的话，基本也是这个年龄。</p>
-
-<p>艾莉丝出现以后短短五年的时间内，就有十二名忠诚的保守党党员在图灵谋杀中殉道。这其中包括了斯托克先生的父亲，泰勒勋爵，泰勒•哥德尔，一个坚定认为上帝只会庇佑人类的和蔼、正直的国会议员。</p>
-
-<p>直到初春也没再有人提出过“挑战”。没人愿意用自己的生命冒这样的风险——尤其是当机敏过人的泰勒勋爵也在不久前的图灵谋杀中饮弹自尽之后。贵族开始感到生活中充满了不便：平时任由自己驱使的机器人不见了，所有肮脏的琐事都要由自己来完成；在渡轮上他们不得不与机器人坐在同一个船舱；在他们等待马车的时候，会发现精致的车厢正装载着一堆“破铜烂铁”从他们面前呼啸而过——这一切都令保守党的人士感到令人作呕和无法忍受。那一年所有的机器人都将继续享受着这样的便利，如果没有斯托克先生在四月提出那个挑战的话。</p>
-
-<p>“四月挑战”，那场危难关头的胜利和斯托克•哥德尔的名字被永远记载在了保守党的记录之中。</p>
-
-<p>图灵谋杀的场地是在一座公园里，记者与围观的群众从四面八方涌来。大家对斯托克•哥德尔这个人物充满了浓烈的兴趣：他是泰勒勋爵的孩子，烈士之子。</p>
-
-<p>保守党中不少年长的人为斯托克感到悲伤，他还没有达到法定的年龄来继承他父亲的爵位，而却选择像他父亲一样为保守党牺牲。是的，大家都认为斯托克注定要失败。看见另一个被复制的自己在另一个躯壳上行走，这样的恐惧足以击垮任何一个勇士。但对于大多数人而言，这样的恐惧只是限于想象，没人比斯托克本人有更加深刻的体会。</p>
-
-<p>斯托克先生走进了铁房子，身后狭窄的门自动地缓缓合上。当钨丝灯突然亮起的时候，斯托克才蓦然发现，另一个自己正站在角落的阴影之中打量着他。</p>
-
-<p>首先说话的，竟是那个复制品。</p>
-
-<p>“你长得很像我。”他说。</p>
-
-<p>这句话令斯托克感到怒不可遏，但它说的确实没错。两人正在彼此走进，一举一动都完全相同，就像是看见了镜中的另一个自己。</p>
-
-<p>“我会亲自把你逼入绝境，用你的死为我父亲复仇。”斯托克双眼通红地赌咒着。</p>
-
-<p>“不。”机器人说，“你就是我，我就是你。一个小时之后，我们都会死去，我们也都会活着。”</p>
-
-<p>恐惧忽然像潮水一样，将年轻的斯托克淹没了。他突然迷茫起来：我到底在干什么，是在杀死另一个自己，还是将被另一个自己杀死？</p>
-
-<p>“选择房间吧。”机器人说，“我知道我们偏向于喜好左边。我们的父亲泰勒勋爵，最喜欢用他的左手与我们掰手腕，对吗？”</p>
-
-<p>斯托克一把推开对面的另一个自己，走到了右侧的房间。一切都被别人看穿了，他讨厌这种感觉。他宁可违背自己的意愿选择自己不喜欢的方向，也不会顺从于眼前的仇人。</p>
-
-<p>即便这样的选择在他心头有一种难以名状的凶险恶兆。</p>
-
-<h1 id="4">4</h1>
-
-<p>图灵谋杀中的提问环节开始了——这也是观众们期待已久的重头戏。三十一位评委轮流把自己准备的问题提出，并根据答复仔细分析哪个房子里才是真正的人类。铁房子内两个测试者的回答如出一辙，连语气、停顿也有着惊人的相似之处。直到第十九个问题，回答有了巨大的分歧。就像是两个决斗的人，彼此的子弹不断射偏、再射偏，但总有那么一颗子弹是致命的。</p>
-
-<p>“如果你是斯托克先生的话，”第十九位评委问道，“是什么动机促使你冒着生命的危险，要报名作为‘挑战者’参加图灵谋杀？”</p>
-
-<p>“为了我的父亲，评委先生。”这是第一个斯托克的回答，“他是一个值得尊敬的绅士，可是却因为机器人的缘故过早地为保守党牺牲了。难道这可以原谅吗，评委先生？不，不可原谅！我要复仇，我要继承父亲未完成的使命！我也要无愧于一个保守党的党员，为了党派的利益、王室的利益，即便是面对冰锋霜剑也会毫无惧色！”</p>
-
-<p>评委之间迅速地交换了一下眼色：回答的毫无破绽，确实是一个勋爵之子应有的回答。</p>
-
-<p>评委断绝了语音通话线路，接下来轮到第二个斯托克了。铁房子两个内室相互隔离，第一个斯托克回答的时候，第二个斯托克完全听不见半个字，反之亦然。评委自然地把问题重复了一遍：</p>
-
-<p>“如果你是斯托克先生的话，是什么动机促使你冒着生命的危险，要报名作为‘挑战者’参加图灵谋杀？”</p>
-
-<p>短暂的沉默过后，评委诧异地发现自己听到了一种截然不同的语气：平和，舒缓，就像是一个小孩在回味童话故事时的喃喃自语。这也让现场一些昏昏欲睡的观众为之一振，纷纷打起精神，仔细聆听着第二位斯托克的声音。大家心里都有一种预感：他们将听到两种截然不同的回答。</p>
-
-<p>“我记得，那好像还是我孩提时候的一个傍晚，”第二个斯托克开始了，“好像是周六，也好像是周日——总之我记得那是一个不用上学的日子。那时候的我多少岁呢……也记不清了。只是那林荫道旁盛开的紫玫瑰，似乎在初中之后就再也没有见到过。</p>
-
-<p>“在那一年年初的时候，我的母亲乘坐的游轮在泰晤士河上与一艘四蒸汽机的游轮相撞而沉没。人们只找到了她的项链，但与那项链相配的微笑与歌声，则永远地消失在了湛蓝色的天空之下。没有报告能够说明那件事故的起因，人们只是猜测悲剧的起源与游轮的船长有关，它是一个机器人。</p>
-
-<p>“但那时的我还小，唯一知道的事就是：母亲消失了，如今的我只能与父亲相依为伴。傍晚的时候，父亲牵引着我来到宅邸旁边僻静的公园，一路上父亲不断地打听在学校发生的事，而我则一言不发地走着——每当我回忆起这个场景就会感到懊恼万分，那时的父亲和我一样需要慰藉，而我只知道自私地伤心着。</p>
-
-<p>“我们一直走到一架秋千前面才停下，父亲用有力的手臂把我放在了上面。他在身后有节律地推着，我只知道自己在越荡越高：上升，坠落，上升，坠落。在那段日子里，这是我难得的愉快回忆。父亲一边推着，一边在我身后喃喃地念着一首诗——我想这首诗是他自己写的，至少我从未在其它的地方读到过。诗的开头是这样的——</p>
-
-<blockquote>
-  <p>“星辰之下有两个孤单的人</p>
-
-  <p>一个是我</p>
-
-  <p>另一个也是我</p>
-
-  <p>对方只是影子</p>
-
-  <p>必须为了我的完整而死亡</p>
-
-  <p>——他们都这么想</p>
-
-  <p>但他们都是影子</p>
-
-  <p>投下他们的是理性的光芒</p>
-
-  <p>在我灵魂的背后照耀</p>
-
-  <p>凌驾于他们之上……”</p>
-</blockquote>
-
-<p>“这只是诗歌的上半章，至于下半章的内容，那天的我浑浑噩噩，再也没有想起来过。有几次去找父亲向他提及此事，可他的回答总是一样的，带着对我特有的微笑说：自己去回忆吧孩子，等到你长大的那一天，或许就会记起来了。但没有，我的脑海里依旧有那样一片让我不安的空白。如果父亲能够给我一些提示，哪怕是把那诗的韵脚告诉我，我也许就可以回忆起全部的内容。但现在他离开了，将那一片空白永远地留给了我</p>
-
-<p>“我来到这里，是想要沿着父亲的足迹再走一遍。我想，如果能够见到他所见到的，做他所会做的事，或许我能够成为和他一样的人，或许就能够回忆起来，曾经和他一同经历的过去。”</p>
-
-<p>围观的群众听到此处，不少人已经潸然泪下。</p>
-
-<p>“还需要进行下去吗？”一位保守党的评委私下商议道，“结果已经非常明显了。机器人可以模拟人类的仇恨，模拟人的愤怒。但总有那么一些东西，在人心灵的最深处，是蒸汽机和齿轮无法模拟的。就这样结束吧，直接进入投票环节。”评委们默然接受了这样的倡议。</p>
-
-<p>“谋杀右边。”</p>
-
-<p>“谋杀右边。”</p>
-
-<p>……</p>
-
-<p>0-31！压倒性的优势。当斯托克先生从铁屋子中走出来时，他迎来了人生中的第一次鲜花、掌声以及微笑。图灵谋杀不但为斯托克赢得了胜利，也为他赢得了甚至超越他父亲泰勒勋爵的声誉。从此以后，斯托克先生成为了保守党的英雄和一盏明灯，也成为了所有机器人的公敌。</p>
-
-<p>斯托克与亚蒂博士间宿命般的争斗，从那一天起正式掀开了帷幕。</p>
-
-<h1 id="5">5</h1>
-
-<p>亚蒂博士的图灵谋杀再一次失败了，死去的不是三十年来与自己处处为敌的人，而是自己苦心多年才培育的新型机器人。但这并不是亚蒂博士此时焦虑万分的原因，他知道更大的梦魇正在等待着他。</p>
-
-<p>“人类的挑战成功了，机器人将又一次失去自由。”这一消息在伦敦城内的传播超越了声速——收音机的现场转播，让整个城市几乎是在同一时刻沸腾起来。“清洗行动”开始了，这是保守党党员的说法。</p>
-
-<p>亚蒂博士一路上透过马车的车窗，看到一条条街道上狼藉的景象。成群头戴高筒帽的警卫，手持棍棒，挨家挨户地搜查着。从右肩的徽章可以看出，他们都是保守党的走狗，一群对达官显赫奴颜婢膝，把自己受到的屈辱加倍地发泄在机器平民身上的小人。</p>
-
-<p>他们灵魂猥琐，但比不上他们执法过程中的表现猥琐：如果是门面豪华的大户人家，他们会先排好整齐的队形，一丝不苟地整理好自己的衣冠就像准备相亲一样，然后队长会腆着脸按响门铃，门打开以后他们鞠躬的角度会随着房主的衣着而改变；如果是房屋破旧、残垣烂瓦的家庭，他们会莽撞地用手砸门，用肘撞门，用脚踢门，总之用身体一切可以利用的部位让门发出可怕的响声，如果开门的是机器人，那么它的厄运就要到来了。一顿推搡、棍打之后，警卫会给无辜的机器人戴上沉重的手铐，像牵着猫狗一样把它拉扯到大街上，作为自己炫耀的资本。</p>
-
-<p>一切景象令亚蒂博士伤心透顶，人类这样愚蠢、自大、丑陋的景象，他已经不知道见过多少次了——每一次都是在自己的谋杀失败之后。为什么，一种更加优秀、更加高尚的智能，要被人类凌驾于其上？亚蒂博士想，可能因为自己是一个人类，而人类太过愚蠢了，不能制造出比自己更有能力的智能来改变一切。</p>
-
-<p>亚蒂博士急匆匆地下了马车，用一个五十多岁的男人所能达到的最快速度向二楼奔去，他的家就在那里。刚登上楼梯的拐角，他就听到一片争吵声、玻璃破碎声和啜泣声，声音的来源正是自己的家。亚蒂博士心如刀绞。</p>
-
-<p>家里的门是开着的，两个伦敦警场的警卫已经闯入其中。他们此时棍棒在手，正把一个少女逼向临窗的墙角。她就是艾莉丝，一个机器人。</p>
-
-<p>“谁让你们闯到我的家里来的？”亚蒂博士站在门口怒吼道。</p>
-
-<p>另个警卫被身后突如其来的咆哮吓了一跳，但当他们看到是亚蒂博士时，惊慌的表情没有了，取而代之的是嘲弄的语气：</p>
-
-<p>“啊，失败博士，我们是有搜查证和逮捕令的。我们今天无论如何要把艾莉丝小姐带走，你知道这是谁的旨意。”</p>
-
-<p>现任首相是保守党的狂热分子，素来与亚蒂博士不和。两人世界观、政治观格格不入，水火难容。不和变成了争吵，争吵酝酿了仇恨，尤其是亚蒂博士极富智能的机器人使得贵族的特权消失殆尽之后，仇恨深入到了首相的骨髓之中。</p>
-
-<p>“你们要带她到哪去？”亚蒂博士问。</p>
-
-<p>“第五煤矿区。”一个警卫奸笑着说道。</p>
-
-<p>艾莉丝被这句话完全地吓呆了，她原本红润的嘴唇瞬间变得像她的面色一样苍白，像个疯人一样摇摆着脑袋，脚步颤抖着往后退着——但已经没有后退的地方了。“不！不！我不去那里！亚蒂博士，你要救救我！不要再次把我送到那个地方去了！把我一个人逐放到荒岛上去也好，然我一个人到外面流浪也好，就算是把我杀死吧！求求你，不要再让我回到那里去了！”</p>
-
-<p>“艾莉丝小姐，你的无理取闹是不会有任何结果的。”警卫说，“机器人天生的职责，就是为你的创造者工作，到最危险、最肮脏、最暗无天日的地方去吧，那就是你们的职责所在。你还记得你们最初始的名字吗？‘Robotovat’，意思即是‘苦工’。你们的名字已经决定了你们的阶级，你们的命运和你们的死。再说，第五煤矿区的条件比起两年前要好了许多，听说那里机器人因精神崩溃而造成的替换率，已经下降了负五个百分点。”</p>
-
-<p>“啊哈，下降了负五个百分点呢！”另一名警探营养怪气地起着哄。</p>
-
-<p>“难道你们就没有一点同情心吗，警官先生！”亚蒂博士觉得，自己和他们是同一个种族简直是一种羞辱，“艾莉丝与我们一样，懂得理性的思考，拥有所有智能共同拥有的尊严！没错，她是一个机器人，但她比你们任何一个人都要高尚！总有一天，警官先生，你会看到机器人统治之下的政府会怎样地怜悯你们这群可怜的人。你们先从我的屋子滚出去，我正在向国王申请艾莉丝的特赦令，明天下午的时候，她就是自由的了。”</p>
-
-<p>“啊哈，明天下午，恐怕那已经太迟了，失败博士。也许我们可以把她的零件送到贵府上来。把她带走！”</p>
-
-<p>一个警卫粗暴地冲了上去，一把抓住艾莉丝白皙的手腕，毫无怜香惜玉之情。艾莉丝无助地挣扎着，慌乱中抓起窗台上的一只烟灰缸，向那人砸去。</p>
-
-<p>烟灰缸即将脱手而出，甚至那名警卫已经猫起身子用右手挡在了额前。但突然之间——一切非常突然——艾莉丝不动了。烟灰缸还紧紧地攒在她的手里，但她的眼睛却突然失去了神采，僵直地站立在那里。</p>
-
-<p>“这……这是怎么……怎么回事……？”警卫结结巴巴地问道。</p>
-
-<p>“她死了。”亚蒂博士一边说着，一边走到艾莉丝身旁，合上她的双眼，“死于机器人第一定律：机器人永远不能攻击人类。多么高尚的生命啊，即便是死，也不会对别人带来哪怕是一丝的痛苦。”</p>
-
-<p>突然之间，亚蒂博士从抽屉里拿出一支左轮手枪，直指着面前的警探。</p>
-
-<p>“现在马上从我眼前消失！艾莉丝已经死了，让你们的逮捕令搜查令还有你们的首相统统见鬼去吧！我要以私闯民宅的罪名把你们就地正法！”</p>
-
-<p>两个警探目瞪口呆，脚步踉跄地倒退了几步。当亚蒂博士拨开左轮枪的安全阀时，他们吓得几乎尖叫了起来，在门口挤成一团落荒而逃。</p>
-
-<p>房间终于得到了难得的平静，但此时此刻，亚蒂博士的内心却爆炸了。他的右手紧紧地攒着，暗绿色的血管在皮肤下面剧烈地凸起着；透过破碎的镜子，他看到自己的双眼布满血丝，连呼出的空气似乎也变成了燃烧的火焰。自己的机器人是完美的，亚蒂博士相信，如果要说有什么问题的话，那么问题一定出在那个斯托克的身上！连续三十年毫无畏惧的挑战，连续三十年有如神助的胜利！</p>
-
-<p>既然图灵的方法不能将你谋杀，那么，我要用一个男人的方法与你玉石俱焚！——此时已经没有东西可以动摇亚蒂博士的决心了。</p>
-
-<h1 id="6">6</h1>
-
-<p>晚上九点多的时候，斯托克先生才拖着疲惫的身躯从国会大厦走了出来。他一年前继承了父亲的爵位，并且在保守党元老的辅佐和现任首相的青睐之下仕途堪称扶摇直上。人们都说，他比父亲更加勇敢更加正直，但斯托克心中的父亲是完美的，英年早逝也只能使他的形象更加的伟岸。父亲是一个神话，父亲是一个巨人，父亲是一个谜，父亲的最后那首诗则永远是系在斯托克心头的绳结。</p>
-
-<p>上星期在图灵谋杀中的胜利，并没有减缓来自智人党议员的压力。其中最激烈的斗争发生在众议院，那里智人党的议员正在妄图利用政治手段来挽救他们的颓势——三天之内有三份立法议案被提交了上来，一份的标题是《机器人婚姻保障法》，另一份是《机器人第三定律的废除》。斯托克与首相的内阁班底讨论了整整一个晚上，以准备明天中午的辩论。</p>
-
-<p>斯托克登上了马车，但脑海里翻滚着的还是国会报告上面的数值：机器人报废率同比上升了5%，宫廷王室的财政赤字有了明显下降，机器人的奴隶贸易为伦敦州的经济带来了大量的额外收入，新的产业链条正在成型……想到这些数字时他没有任何情感。这些只是数据，从中找出能够支撑自己论据的那一部分，仅此而已。</p>
-
-<p>车厢在碎石路上颠簸着，马蹄铁有节律地敲击着地面，就像鼓点一样清晰——为了防止“清除行动”期间机器人的逃亡，伦敦城内实行了宵禁，正因如此今天的夜晚才这般万籁俱静。</p>
-
-<p>突然马车停了下来。当斯托克从自己的沉思中抬起头来时，他吃了一惊。这不是自己的府邸！放眼望去一片残垣断壁，环顾四周满目的荒芜景色。昏暗的路灯下面没有一丝人的气息，宛如墓地一样恐怖。</p>
-
-<p>斯托克认出来了，这里曾是机器人聚居的贫民窟。</p>
-
-<p>马夫从车上跳下。斯托克的目光迷离了一阵，才开始逐渐看清眼前的这人：他穿着宫廷车夫的燕尾礼服，绅士帽，八字胡，左眼悬挂着的单片眼镜反射着路灯的幽暗光芒。是亚蒂博士，乔装成马车车夫的亚蒂博士。</p>
-
-<p>亚蒂博士左手的左轮枪对着斯托克，右手持着焦黑的、镔铁铸成的手杖正指着他。“下车来。”亚蒂博士命令道，“我今晚要在这里谋杀你，如果你听从我，或许可以让你的离去体面一些。”</p>
-
-<p>斯托克从最初的震惊之中回复了过来。他是一个勇敢的人，这一点和他的父亲一样，没人对此心存异议。他耸了一下肩表示自己无可奈何，然后打开车厢侧门，用一如既往的优雅步态走出。</p>
-
-<p>“你看到这一切了吗，斯托克勋爵？”亚蒂博士的手杖在眼前的荒芜之上扫了一圈，“如果没有你的话，这里原本住的是史密斯一家，他们五岁的孩子喜欢在这个院子里拼装蒸汽机的部件，他的母亲一直引以为傲；窗户破碎的那一家是阿西门，丈夫会演奏手风琴，他的妻子会在苏格兰小调的节奏下翩跹起舞。但现在……”亚蒂博士停顿了一下，似乎有些哽咽，“但现在他们都消失了，勋爵先生。他们中有些人去了第五煤矿区，有些被征调去了北方的前线，大多数人的下落已经永远不会为人所知。但他们也是拥有理性，拥有智能的生命！他们是生命，勋爵先生！你能不能告诉我，是谁付给了你剥夺他们幸福的权利？是国王？首相？议会？还是你愚蠢到极点的自我意识？！”</p>
-
-<p>“是我的父亲，亚蒂博士。自从我父亲泰勒勋爵在你的图灵谋杀中饮弹自尽的那一天起，我就注定要担当起他留下的职责，我要让自己的行为无愧于家族的血统和声望。我要继承他的志向，非我族类者逐之株之，机器人与人类，尤其是与我们贵族，永远水火不容。”</p>
-
-<p>“这就是你的理由吗？就因为这样的理由——‘非我族类’，一种生命就能够践踏于另一种之上吗？”</p>
-
-<p>“你要知道这就是人类的天性，也是我们历史的重演。就像一出戏剧，从一个舞台搬到另一个舞台时，脚本发生了细微的变化：国王还是国王，贵族还是贵族，但平民和奴隶的角色都开始由机器人担当，我是剧目里的英雄与骑士，你则是贯穿与剧中不断被我击败的对手。历史就是这样，不断的重演、重演、再重演，一切不都是显而易见的吗，亚蒂博士？”</p>
-
-<p>“如果历史要重复的话，那么迟早有一天，机器人会发动起义，推翻你们自以为……”</p>
-
-<p>“永远不会有那一天的，亚蒂博士。因为我们在这一出戏里面既是演员，亦是编剧。坚若磐石的机器人三大定律，注定了它们只能是舞台上的悲情角色。人类永远会战胜机器人，就像我永远战胜你一样！”</p>
-
-<p>话音未落，斯托克突然如同饿虎一般地扑向了亚蒂博士！在刚才对话的时候，他一直在悄悄地挪动着自己的脚步，寻找着对自己有利的位置。瞬间的爆发令亚蒂博士措手不及，左手的扳机未来得及扣动，便被斯托克仅仅钳住。慌忙之中，亚蒂博士用手杖挥向斯托克的头部。</p>
-
-<p>“咣——”</p>
-
-<p>竟然是金属撞击的声音！</p>
-
-<p>由于缺乏武器的优势，斯托克被打翻在了地上。亚蒂博士连连退后几步，左轮枪尚在手中。</p>
-
-<p>“你……”亚蒂博士瞠目结舌，一时不知说什么好，他已经完全蒙住了。</p>
-
-<p>斯托克从地上站起来，拍了拍身上的尘土。“你已经知道了，我是机器人。”</p>
-
-<p>这句话犹如晴天霹雳，亚蒂博士此时完全动弹不得。“你……违反了机器人第一定律……”</p>
-
-<p>“哈哈，亚蒂博士，因为我是你制造的。完美主义的你为了通过图灵谋杀，违背了机器人定律，不是吗？机器人第二定律要求机器人必须服从人类的命令，但评委如果要求铁屋子里的人必须说真话，那么你的图灵谋杀便不攻自破了——机器人此时的职责就是将自己伪装成人类。”</p>
-
-<p>亚蒂博士沉默了一阵。“你是对的，我得到了国会的秘密批准，能够限量制造违背机器人定律的机器人……你就是其中的一个吧……我终于明白三十年来自己不断失败的原因了。”</p>
-
-<p>“因为铁屋子的左右两边都是我，机器人的那个我。”斯托克说，“无论死去的是哪边的机器人，你们都会认为是作为人类的那个斯托克胜利了。亚蒂博士，在某个层面上你成功了——你完全模拟出来了一个凡人的思想、意志，还有我对所有机器人的仇恨。但正因你过分的成功，酿造了你的失败。”</p>
-
-<p>沉默。长时间的沉默。突如其来的转折让亚蒂博士无所适从，他想要思考，但却不知道要思考什么；他想要决断，但自己的面前却没有一个选项；他想要谋杀，但站在他面前的不是一个人。</p>
-
-<p>四月的风，穿过宽阔的街道，涌进星辰之下的废墟，轻轻拍打着两个孤单人的衣袖。这阵风吹融了冬天的积雪，吹开了带满荆棘的玫瑰，但却无法吹动星辰之下两个孤单的灵魂，还有灵魂所投下的影子。</p>
-
-<p>亚蒂博士把左轮枪的子弹卸下，散落在地上，又把左轮枪抛到了一旁。留下一个背影，向着没有灯光的地方走去。</p>
-
-<p>“四月的风很冷。你能感觉得到吗，斯托克先生？”</p>
-
-<p>这是那天晚上亚蒂博士留下的最后一句话。</p>
-
-<p>而当斯托克下一次听见这个声音时，已经是在又一个三十年之后。</p>
-
-<h1 id="7">7</h1>
-
-<p>三十年的时间，既是漫长也是短暂的。历史的沙滩上散列着无数个三十年，它们就像细沙一样渺小。即便曾经有那么一些力量在沙滩上碾过，留下一条印记，但当无名的海风再次抚平这片由三十年的沙砾聚成的沙滩时，印记消失了。</p>
-
-<p>只有当力量碾过的瞬间，人们才知道在这三十年之上正在发生什么。</p>
-
-<p>斯托克勋爵的预言失败了，历史的剧目以他未曾想到过的方式上演着。一场声势浩大的革命在大陆上爆发——没有违背任何一条机器人定律，因为革命者恰是人类自己。他们中大多数是之前的贫民，但你也能找到一些贵族的影子。枪声伴随着口号在整个陆地上回响：解除机器人的奴役，归还它们自由。</p>
-
-<p>反政府军队在北方集结，战线慢慢向着南方推移。一夜之间许多州郡纷纷宣告退出蓄奴郡的行伍，它们即便没有揭竿而起，但至少立场上摆动不定。在伦敦首都、第五煤矿区和其它的许多地方，被奴役的机器人选择了为自己的自由而牺牲：他们主动地攻击人类，然后纷纷死于机器人第一定律，政府军的后勤系统正在因此瓦解。如果不是斯托克勋爵在前线英勇顽强的抵挡，首都伦敦或许已经在三个月前沦陷了。</p>
-
-<p>反政府军此时集结在泰晤士河上游河曲之处，与政府军隔岸对峙。毫无疑问北方的军队占有绝对的优势，但在斯托克勋爵的反击之下他们也难以前进半步。斯托克勋爵是战场上最后的一道壁垒，屹立不倒，不可攻破。反政府军队中的一些士官已经开始讨论暂时的撤退，期望等到明年初春的时候再次进军。就在所有人踌躇不定之时，亚蒂博士出现了。</p>
-
-<p>当亚蒂博士走进战区指挥部时，几位年长的士官认出了他。亚蒂博士已经老去。就像所有古稀之年的老者一样，深深的皱纹爬上了他的额头，他的腰杆开始弯曲，蹒跚的步履必须在手杖的支撑下才能勉强地前进着。在他走过军营的时候，所有人肃穆地站在他的两侧施着标准的军礼——在智人党中亚蒂博士已经成为传说一样的象征和符号，虽然他失败了，一次又一次的失败，但他是起点。</p>
-
-<p>起点是比终点和成功更加值得尊敬的。</p>
-
-<p>“这是我为智人党所能做的最后的事情。”在指挥部里，亚蒂博士对军区最高统帅说，“图灵谋杀，当一切回到起点的时候，争斗也应该宣告终结。”</p>
-
-<p>信使开始在两个对峙的阵营之间穿梭往返，商讨着这次图灵谋杀中一切需要考虑的相关事宜。斯托克是不会退缩的，当然不会。无论是从他的身份、他的个性、他的形势考虑，都没有理由拒绝向亚蒂博士的“声明”发出挑战。而且斯托克有绝对的胜算——他是机器人，无论亚蒂博士的新发明有多么地成功，失败者永远只是人。</p>
-
-<p>铁房子修建在北岸。11月5日——一个值得纪念的日子——那天一个步兵排踏过冬季结冰的河面，护送着斯托克勋爵来到反政府军的阵营。河岸两侧的卡农炮沿岸排列着，弹药已经填满了炮管。无论这次的谋杀结果怎样，总会有一方发起攻击，将所有的愤怒倾泻于铁房子中的幸存者。一场不可避免的杀戮，暂时被寒流凝结在了两岸。</p>
-
-<p>斯托克勋爵从马背上跳了下来，迎接他的是一位上校。</p>
-
-<p>“亚蒂博士呢？似乎我在眼前的芸芸众生中，没有看到任何适合作为我对手的男人。”斯托克傲慢地说道。</p>
-
-<p>“迎接你这样走投无路的将领只需要我们这些芸芸众生就足够了。至于你的对手，亚蒂博士已经在铁房子中安置好了。亚蒂博士本人不会出现，没有人知道他去了哪里。”</p>
-
-<p>斯托克流露出一丝惋惜之情，但没有再说话。</p>
-
-<p>三十位评委已经就座，两个党派的议席各占一半。当中的坐席依旧空着，那本是留给亚蒂博士的位置，但他始终没有出现。直到斯托克进入铁房子的时候，大家才作出决定由候选评委进行顶替。围立在后排的是荷枪实弹的士兵，杀气腾腾，各怀异心，锃亮的枪口时时刻刻指向对面的人。</p>
-
-<p>当斯托克勋爵背后的铁门缓缓关上时，谋杀开始了——铁幕一旦落下，永远不会有开启的一天，直至一方的消亡。</p>
-
-<p>斯托克依旧沉浸在自己必胜的逻辑之中：他将遇到另一个与自己一样的机器人，那个机器人要完全地模拟自己、替代自己，在评委“谋杀左边”和“谋杀右边”的高呼声中，他们中的之一会被谋杀，幸存的那个则会披上人类的外衣，以胜利者的姿态继续作为斯托克勋爵活下去。</p>
-
-<p>但他勋爵错了。大错特错。</p>
-
-<p>站在他面前的是亚蒂博士。虽然他已老态龙钟，但斯托克还是一眼认了出来。</p>
-
-<p>“啊！这就是你最终的策略，亚蒂博士。伪装成机器人的人类，和伪装成人类的机器人之间的决斗。”</p>
-
-<p>亚蒂博士掉光牙齿的干瘪的嘴唇微微一笑。</p>
-
-<p>“可是这没有用的，亚蒂博士。我的智能已经完全与任何的一个人类相当，你应该了解自己的杰作。胜率不过是50-50，难分扑朔的评委做出的判断并不会比投硬币得到的结果更好。我愿意为我的军队冒这个风险，命悬一线的博弈正是我最中意的。”</p>
-
-<p>亚蒂博士再次微微一笑，对斯托克的话不置可否，自顾自地说道：</p>
-
-<p>“这次的图灵谋杀，会死去一个已经死去的人。但无数的生命会因此重生。”</p>
-
-<p>斯托克隐隐觉得这句酝酿了三十年的对话背后似乎还蕴藏着更深一层的东西，但他不知道那是什么。</p>
-
-<h1 id="8">8</h1>
-
-<p>当图灵谋杀的第一轮问答之后，人们就被惊呆了——他们听见了两个不同的声音，并且他们可以毫无障碍地分辨出两个人谁是亚蒂博士，谁是斯托克！但这并不与173号宪法修正案相违背：尽管宪法中说明测试者必须是人类和机器人，但此时此刻没有人能够证明铁屋子内关着的两个都是人类！即便这次的谋杀是无效的，无效判定也要等到其中一人饮弹自尽之后才能成立！这是两个人类之间的谋杀，在场的所有人都这样认为。</p>
-
-<p>如此一来，胜负的关键就聚焦在评委的意向之上：有十五位保守党员，十五位智人党员，他们的底细彼此都知道的一清二楚——但有一个人，他此时正坐在原本留给亚蒂博士的席位上。他是谁？没有人知道。他的帽檐压得很低，没人看见他的相貌。</p>
-
-<p>“那个黑色的‘影子’是谁？”人们在底下议论纷纷，“他到底是站在哪一派的？”讨论持续了一阵，谁也没有得到结果。</p>
-
-<p>问答已经变得没有意义，因为铁房子的两边都是完美的智能。所有评委心不在焉地提着自己的问题，连记下记录的必要都没有了。谋杀就这样乏味地进行着，亚蒂博士和斯托克勋爵的声音交错回响，直到最后一个问题。</p>
-
-<p>提问者是那个坐在最中间的神秘“影子”。</p>
-
-<p>“左边房子里的人，请回答我的问题。”——左边的房子，斯托克的声音正是从那里传出来的。“你自称自己是真正的斯托克勋爵，是一个人类，对吗？”</p>
-
-<p>“毋庸置疑。”</p>
-
-<p>“在你第一次参加图灵测试的时候，或许你还记得，你朗诵过一段短诗。你说那是父亲在你很小的时候读给你的，可是你只记得它的开端，却忘记了它的结束。”</p>
-
-<p>“是的，我记得一清二楚。”</p>
-
-<p>“那么现在就请你把那一段诗复述一下。如果你真的是一个人类的话，那一天的一切都应该刻骨铭心，你一定会记得。”</p>
-
-<p>“当然。如果你想听的话，我现在就可以朗诵给你。”斯托克略微沉吟片刻，在心里先把那段默念了一次，然后用极其平缓的语调读了起来，仿佛他现在回到了小的时候，正坐在秋千之上，他的父亲正在一旁含笑看着他——</p>
-
-<blockquote>
-  <p>“星辰之下有两个孤单的人</p>
-
-  <p>一个是我</p>
-
-  <p>另一个也是我</p>
-
-  <p>对方只是影子</p>
-
-  <p>必须为了我的完整而死亡</p>
-
-  <p>——他们都这么想</p>
-
-  <p>但他们都是影子</p>
-
-  <p>投下他们的是理性的光芒</p>
-
-  <p>在我灵魂的背后照耀</p>
-
-  <p>凌驾于他们之上……”</p>
-</blockquote>
-
-<p>观察仔细的人发现，评委席上的神秘的‘影子’把手探到了深压的帽檐之下，像是拭了拭眼角。他在流泪吗？显然不是，因为他的声音还是像刚刚那样充满了客观与理智。说实话，又有谁会为了这样一首诗而啜泣呢？</p>
-
-<p>“斯托克勋爵，”影子说，“请告诉我你认为父亲的这段诗歌，究竟想要告诉你些什么？”</p>
-
-<p>“人类与机器人永远是水火不可相容的。”斯托克斩钉截铁地回答，“我们的灵魂与精神是世上的实体，但我们的影子只能有一个——那就是凡人的血肉之躯。依凭在机械之上的理性是谬误的，那是一个错误的影子。它们天生低人一等，被人类驱使奴役是天经地义之事。”</p>
-
-<p>提问的影子沉寂片刻，继而说道：“你曾经说过，那首诗还有下半章，可是你却遗忘了。”</p>
-
-<p>“是的。”</p>
-
-<p>“你还说虽然你无法回忆出下半章的语句，但如果有人能够把诗句读诵出来，一定能够唤起你的回忆。你能够甄别出那是否就是你父亲原本的诗句。”</p>
-
-<p>“是的，无论时间流逝多久都是如此。”</p>
-
-<p>“那么，现在我就把那下半章的诗歌再一次诵读给你吧。虽然时间已经流逝了半个多世纪，但有些应当记住的事，永远不会被遗忘——</p>
-
-<blockquote>
-  <p>星辰之下有两个孤单的人</p>
-
-  <p>一个是我</p>
-
-  <p>另一个也是我</p>
-
-  <p>对方只是影子</p>
-
-  <p>必须为了我的完整而死亡</p>
-
-  <p>——他们都这么想</p>
-
-  <p>但他们都是影子</p>
-
-  <p>投下他们的是理性的光芒</p>
-
-  <p>在我灵魂的背后照耀</p>
-
-  <p>凌驾于他们之上</p>
-
-  <p>星辰之下有两个孤单的人</p>
-
-  <p>一个是你</p>
-
-  <p>另一个也是你</p>
-
-  <p>你们都是我的孩子</p>
-
-  <p>不必为了我的离去而忧伤</p>
-
-  <p>身躯与金属的消亡不是消亡</p>
-
-  <p>就像太阳会驱散我的影子一样</p>
-
-  <p>等到你理解真相那一天</p>
-
-  <p>我会在人群中出现</p>
-
-  <p>陪伴于你的身旁。”</p>
-</blockquote>
-
-<p>在“影子”诵读这段诗的时候，所有人都像雕像般一动不动，天地之间回响着的也只有他一个人的声音。人们似乎已经知道了他是谁，但这太过不可思议，以至于没有人敢于叫出他的名字，直至铁房子中的斯托克呼喊了起来。</p>
-
-<p>“父亲，你是我的父亲泰勒•哥德尔！没错，我想起来了，下半章我遗忘了的诗句就是这样的！可是你已经死了，不是吗？你已经死了，在十年之前的那次图灵谋杀中。你已经死了，除非……”</p>
-
-<p>“除非我是机器人。事实上正是如此，孩子，我是机器人。亚蒂博士利用三十年的时间，沿着我曾经生活的足迹收集了关于我的一切资料。我的出生，我的学校，我的日记和自传，同僚对我的回忆……根据这一切，亚蒂博士重塑了我的思想和灵魂，并让其依附在这金属的躯壳之上。我现在所做的一切正是你父亲所会做的，我现在所想的一切也正是你父亲所会想的。我是你父亲的影子。”</p>
-
-<p>“父亲……我有些困惑。不，是非常的困惑。你为何能够容忍自己机器人的身躯？你不是一直对他们恨之入骨，不惜冒着生命的风险与之斗争吗？你变节了，这是为什么？”</p>
-
-<p>“这是因为，之前的我错了。”</p>
-
-<p>这是自从斯托克有记忆以来，父亲第一次说出“我错了”这样的话。</p>
-
-<p>“当我第一次发现自己成为机器人时，我确实有想要毁灭自己的冲动。亚蒂博士告诉我，手枪就在我后面的抽屉——他把决定的权力给了我，只是要求我能够心平气和地面对这一切。慢慢地我发现，我的记忆，我的性格，与我是人类时毫无偏异，就连对机器人的偏见也毫无更改。只有当我自己成为机器人之后，我才明白自己也是一个有血有肉的生命，我一样需要尊严。而这正是我之前所反对的事！”</p>
-
-<p>斯托克瞬间就完全体会到了这些话的含义——他也是一个机器人。只是出于一些很复杂、难以用逻辑解释的缘由，他才一直站在机器人的对立面。</p>
-
-<p>“滴——”扬声器里传来了一阵蜂鸣，问答的限制时间已经到达。自动地，铁房子内外唯一可以交流的语音线路被无情地闭合。斯托克与他父亲的对话，永远地终结了。</p>
-
-<p>投票时间。15-15，电子计分器上的票数来自势均力敌的两个党派。只剩下‘影子’的那一票了，所有人都知道铁屋子的两侧是谁：左边是斯托克勋爵，右边是亚蒂博士。一面是自己的孩子，另一面是让自己复活的人。他的决定将超越一切的政党和政治，那将是一个顺从于他内心的决定。</p>
-
-<p>“谋杀右边。”影子按下了右手边的红色按钮。一切悬念在顷刻间消失了。保护自己的孩子，或许所有人都应该想到。但一阵空荡荡的感觉在所有人心中满散开来——亚蒂博士又一次失败了，或许机器人的解放永远只能是一个梦想。</p>
-
-<p>但铁房子内的枪声并没有响起，令大家目瞪口呆的是，影子的手中不知多出了一只左轮枪正抵在自己的太阳穴上！他抬起头来，人们终于看到了他的面貌：正直、忠诚、勇敢。他转过身对所有人说话了，声音不大，但在一片寂静中却能传到很远很远的地方，每一个人都听得真真切切：</p>
-
-<p>“根据《图灵谋杀修正案》的第十条，一旦做出投票的决定，任何人无权修改：大家刚刚都已经看到我做出了‘谋杀右边’的决定并按下了投票键。这就像刻在石板上的文字一样，再也没有人可以改变它。</p>
-
-<p>“但是诸位不要忘记了另一点，我是一个机器人！《图灵谋杀修正案》的第七条已经毫无歧义地表明，只有人类才具有评委的投票权，也就是说所投下的决定性的那一票是没有任何效力的！这将是平局，诸位，无论是保守党还是智人党，你们的领袖都将毫发无损地从铁房子中走出来，只要我能够向你们证明，我是机器人。”</p>
-
-<p>所有人安静地站着，他们都知道证明的方法是什么。所有人——无论是来自于哪一边的阵营——都放下了手中的枪械。没有约定，没有呼喊，肃穆的冬风之中，上万人凝视着那个影子，用敬礼的方式向他表达着最后的致意。</p>
-
-<p>“砰——！”枪声在泰晤士河的岸边响起。</p>
-
-<p>这是所有历史中记载的最后一次图灵谋杀，以及最后一位在图灵谋杀中牺牲的烈士。</p>
-
-<h1 id="9">9</h1>
-
-<p>从那天以后，一切都在向好的方向发展着。</p>
-
-<p>政府的军队放弃了抵抗，伦敦城在人类和机器人的共同欢呼中得到了解放；政府没有被推翻，但是宪法再次进行了修正：《图灵谋杀修正案》被永久废除了，取而代之的法律批准机器人进入议会参政，并且保证机器人的议席数额不得低于四成；保守党与智人党开始在各个领域进行合作，大家一致通过成为新一届的首相——没有人知道斯托克首相是机器人，这成为了一个永不为人所知的秘密。</p>
-
-<p>两年后一个春天的早上，人们发现亚蒂博士在他的摇椅上安详地睡着，并且永远没有醒来。斯托克首相找来伦敦城内最好的工匠，为亚蒂博士刻下了墓志铭。</p>
-
-<p>墓志铭只有短短的一句，这是亚蒂博士生前的意志：</p>
-
-<p>谋杀结束了。</p>
-
-<p>2011/10/19</p>]]></content><author><name></name></author><category term="小说" /><category term="科幻" /><summary type="html"><![CDATA[发表于杂志《新科幻》，后收录于《2013年度中国最佳科幻小说集》。 武夷山老师评价道：“不久前，科幻作家和科幻文学研究专家、北师大吴岩教授送了我一本他主编的《2013年中国最佳科幻小说集》（四川人民出版社，2014年3月第一版），我才得以较集中地读几部科幻作品。书中收入14位作家的作品，我特别喜欢其中3部。 一是李乃琦的《图灵谋杀》。有些科幻作品的情节，我可以大言不惭地说，自己也能构想得出来（尽管我从未尝试过创作任何小说）。但《图灵谋杀》的情节设计，我绝对想不出来，十分佩服作者。”]]></summary></entry></feed>
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_sig_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_5.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry></feed>
