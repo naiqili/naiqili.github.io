@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-10T10:23:58+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse.html"><![CDATA[<p>Qniverse（<b>Q</b>uantitative Trading’s U<b>niverse</b>）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-11T20:25:03+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse.html"><![CDATA[<p>Qniverse（<b>Q</b>uantitative Trading’s U<b>niverse</b>）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。</p>
 
 <p>目前系统已以下算法，并对其中表现较好的若干策略进行每日实时回测。</p>
 
@@ -13,6 +13,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align: center">GBDT ENSEMBLE</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">模型集成</td>
+      <td style="text-align: center"><a href="/2024/10/16/gbdt_ensemble.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
     <tr>
       <td style="text-align: center">GBDT</td>
       <td style="text-align: center">2017</td>
@@ -142,28 +149,28 @@
 
 简介：TODO
 
-[实时测试](/2024/10/16/ons.html) -->]]></content><author><name></name></author><category term="开源项目" /><category term="更新中" /><summary type="html"><![CDATA[Qniverse（Quantitative Trading's Universe）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。]]></summary></entry><entry><title type="html">DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)</title><link href="http://localhost:4000/2024/12/01/dnf.html" rel="alternate" type="text/html" title="DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)" /><published>2024-12-01T00:00:00+08:00</published><updated>2024-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/01/dnf</id><content type="html" xml:base="http://localhost:4000/2024/12/01/dnf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="动画" /><category term="生成" /><summary type="html"><![CDATA[We propose DNF, a dictionary-based representation for the unconditional generation of 4D deforming shapes, with a transformer-based diffusion model. Our method is capable of generating motions with superior shape quality and temporal consistency.]]></summary></entry><entry><title type="html">LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)</title><link href="http://localhost:4000/2024/10/28/lcm.html" rel="alternate" type="text/html" title="LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)" /><published>2024-10-28T00:00:00+08:00</published><updated>2024-10-28T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/28/lcm</id><content type="html" xml:base="http://localhost:4000/2024/10/28/lcm.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="点云" /><summary type="html"><![CDATA[We propose a Locally constrained Compact point cloud Model (LCM) consisting of a locally constrained compact encoder and a locally constrained Mamba-based decoder. Our encoder replaces self-attention with our local aggregation layers to achieve an elegant balance between performance and efficiency. Considering the varying information density between masked and unmasked patches in the decoder inputs of MPM, we introduce a locally constrained Mamba-based decoder. This decoder ensures linear complexity while maximizing the perception of point cloud geometry information from unmasked patches with higher information density. Extensive experimental results show that our compact model significantly surpasses existing Transformer-based models in both performance and efficiency, especially our LCM-based Point-MAE model, compared to the Transformer-based model, achieved an improvement of 1.84%, 0.67%, and 0.60% in average accuracy on the three variants of ScanObjectNN while reducing parameters by 88% and computation by 73%.]]></summary></entry><entry><title type="html">MPT</title><link href="http://localhost:4000/2024/10/16/mpt.html" rel="alternate" type="text/html" title="MPT" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/mpt</id><content type="html" xml:base="http://localhost:4000/2024/10/16/mpt.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+[实时测试](/2024/10/16/ons.html) -->]]></content><author><name></name></author><category term="开源项目" /><category term="更新中" /><summary type="html"><![CDATA[Qniverse（Quantitative Trading's Universe）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。]]></summary></entry><entry><title type="html">DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)</title><link href="http://localhost:4000/2024/12/01/dnf.html" rel="alternate" type="text/html" title="DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)" /><published>2024-12-01T00:00:00+08:00</published><updated>2024-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/01/dnf</id><content type="html" xml:base="http://localhost:4000/2024/12/01/dnf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="动画" /><category term="生成" /><summary type="html"><![CDATA[We propose DNF, a dictionary-based representation for the unconditional generation of 4D deforming shapes, with a transformer-based diffusion model. Our method is capable of generating motions with superior shape quality and temporal consistency.]]></summary></entry><entry><title type="html">LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)</title><link href="http://localhost:4000/2024/10/28/lcm.html" rel="alternate" type="text/html" title="LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)" /><published>2024-10-28T00:00:00+08:00</published><updated>2024-10-28T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/28/lcm</id><content type="html" xml:base="http://localhost:4000/2024/10/28/lcm.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="点云" /><summary type="html"><![CDATA[We propose a Locally constrained Compact point cloud Model (LCM) consisting of a locally constrained compact encoder and a locally constrained Mamba-based decoder. Our encoder replaces self-attention with our local aggregation layers to achieve an elegant balance between performance and efficiency. Considering the varying information density between masked and unmasked patches in the decoder inputs of MPM, we introduce a locally constrained Mamba-based decoder. This decoder ensures linear complexity while maximizing the perception of point cloud geometry information from unmasked patches with higher information density. Extensive experimental results show that our compact model significantly surpasses existing Transformer-based models in both performance and efficiency, especially our LCM-based Point-MAE model, compared to the Transformer-based model, achieved an improvement of 1.84%, 0.67%, and 0.60% in average accuracy on the three variants of ScanObjectNN while reducing parameters by 88% and computation by 73%.]]></summary></entry><entry><title type="html">Kelly</title><link href="http://localhost:4000/2024/10/16/kelly.html" rel="alternate" type="text/html" title="Kelly" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/kelly</id><content type="html" xml:base="http://localhost:4000/2024/10/16/kelly.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/MPT_info.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_info.png" />
 </div>
 
 <h2 id="回测结果报告">回测结果报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/MPT_rg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rg_0.jpg" />
 </div>
 
 <h2 id="风险分析报告">风险分析报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/MPT_rag_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/MPT_rag_1.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/MPT_rag_2.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/MPT_rag_3.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/MPT_rag_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_4.jpg" />
 </div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">UP</title><link href="http://localhost:4000/2024/10/16/up.html" rel="alternate" type="text/html" title="UP" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/up</id><content type="html" xml:base="http://localhost:4000/2024/10/16/up.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
@@ -186,28 +193,49 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_2.jpg" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_3.jpg" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/UP_rag_4.jpg" />
-</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">Kelly</title><link href="http://localhost:4000/2024/10/16/kelly.html" rel="alternate" type="text/html" title="Kelly" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/kelly</id><content type="html" xml:base="http://localhost:4000/2024/10/16/kelly.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">GBDT ENSEMBLE</title><link href="http://localhost:4000/2024/10/16/gbdt_ensemble.html" rel="alternate" type="text/html" title="GBDT ENSEMBLE" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/gbdt_ensemble</id><content type="html" xml:base="http://localhost:4000/2024/10/16/gbdt_ensemble.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_info.png" />
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_info.png" />
 </div>
 
-<h2 id="回测结果报告">回测结果报告</h2>
+<h2 id="模型近期表现">模型近期表现</h2>
+
+<p>近20日表现：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_performance20.png" width="500" />
 </div>
 
-<h2 id="风险分析报告">风险分析报告</h2>
+<p>近10日表现：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_1.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_2.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_3.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/KELLY_rag_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_performance10.png" width="500" />
+</div>
+
+<p>近5日表现：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_performance5.png" width="500" />
+</div>
+
+<h2 id="信号预测结果">信号预测结果</h2>
+
+<p>综合排序1 - 10：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_top0.png" />
+</div>
+
+<p>综合排序11 - 20：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_top1.png" />
+</div>
+
+<p>Watchlist:</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_watch.png" />
 </div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/10/16/qniverse-en.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/qniverse-en</id><content type="html" xml:base="http://localhost:4000/2024/10/16/qniverse-en.html"><![CDATA[<h2 id="信号预测算法">信号预测算法</h2>
 
 <h3 id="gbdt">GBDT</h3>
