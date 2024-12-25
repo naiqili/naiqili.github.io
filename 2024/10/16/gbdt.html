@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>GBDT</title>
-  <meta name="description" content="模型信息">
+  <meta name="description" content="算法介绍">
 
   <!-- Bootstrap compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
@@ -86,7 +86,11 @@
 
 <div class="mb-2">
   <div class="card-body">
-    <h2 id="模型信息">模型信息</h2>
+    <h2 id="算法介绍">算法介绍</h2>
+
+<p>LightGBM: a highly efficient gradient boosting decision tree （GBDT）：LightGBM是一种高效的GBDT实现，采用了两项关键技术来提升高维大数据场景下的效率与可扩展性：梯度一侧采样（GOSS）和互斥特征捆绑（EFB）。GOSS通过筛除梯度较小的数据实例，仅使用梯度较大的部分估算信息增益，从而在显著减少数据量的同时保持精度；EFB通过将互斥特征捆绑在一起，减少特征数量，优化计算开销。实验表明，LightGBM相比传统GBDT实现训练速度提升超过20倍，同时几乎不损失精度。</p>
+
+<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
@@ -135,6 +139,12 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_4.jpg" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_5.jpg" />
 </div>
+
+<h2 id="参考文献">参考文献</h2>
+
+<ul>
+  <li>Ke G, Meng Q, Finley T, et al. Lightgbm: A highly efficient gradient boosting decision tree[J]. Advances in neural information processing systems, 2017, 30.</li>
+</ul>
 
 
     

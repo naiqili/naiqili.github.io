@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>SegRNN</title>
-  <meta name="description" content="模型信息">
+  <meta name="description" content="算法介绍">
 
   <!-- Bootstrap compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
@@ -86,7 +86,11 @@
 
 <div class="mb-2">
   <div class="card-body">
-    <h2 id="模型信息">模型信息</h2>
+    <h2 id="算法介绍">算法介绍</h2>
+
+<p>SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting （SegRNN）：SegRNN通过引入分段迭代和并行多步预测（PMF）两种策略，显著减少RNN在长时间序列预测（LTSF）任务中的迭代次数，从而克服其在长时间回溯窗口和预测范围上的局限性。这种改进使SegRNN在预测精度、运行速度和内存效率上均优于现有Transformer模型，运行时间和内存使用降低超过78%。</p>
+
+<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
@@ -135,6 +139,12 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_mpg_4.jpg" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_mpg_5.jpg" />
 </div>
+
+<h2 id="参考文献">参考文献</h2>
+
+<ul>
+  <li>Lin S, Lin W, Wu W, et al. Segrnn: Segment recurrent neural network for long-term time series forecasting[J]. arXiv preprint arXiv:2308.11200, 2023.</li>
+</ul>
 
 
     
