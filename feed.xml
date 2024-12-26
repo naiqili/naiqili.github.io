@@ -1,6 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-25T14:53:54+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse-private.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse-private</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse-private.html"><![CDATA[<h2 id="watchlist">Watchlist</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-26T20:00:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse-private.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse-private</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse-private.html"><![CDATA[<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">算法名称</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">算法类型</th>
+      <th style="text-align: center">回测结果</th>
+      <th style="text-align: center">持续更新</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">DENSEMBLE (GBM)</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">模型集成</td>
+      <td style="text-align: center"><a href="/2024/10/16/densemblegbm.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<blockquote class="quote-card">
+  <p>
+    All models are wrong, but some are useful.<br />
+    所有模型都是错的，但有些是有用的。
+  </p>
+
+  <cite>
+    ——George Box
+  </cite>
+</blockquote>
+
+<h2 id="结果汇总summary">结果汇总/Summary</h2>
+
+<p><img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_info.png" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Col 1</th>
+      <th style="text-align: center">Col 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">DENSEMBLE (GBM)</td>
+      <td style="text-align: center">-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="月频icmonthly-ic">月频IC/Monthly IC</h3>
+
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_all_watch.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_3.jpg" width="500" />
+</div>
+
+<h3 id="年化收益率annualized-return">年化收益率/Annualized Return</h3>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_1.jpg" width="500" />
+</div>
+
+<h3 id="最大回撤max-drawdown">最大回撤/Max Drawdown</h3>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_2.jpg" width="500" />
+</div>
+
+<h3 id="信息比率information-ratio">信息比率/Information Ratio</h3>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_3.jpg" width="500" />
+</div>
+
+<h3 id="标准差std">标准差/STD</h3>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_4.jpg" width="500" />
+</div>
+
+<h2 id="模型近期表现recent-performance">模型近期表现/Recent Performance</h2>
+
+<p>近20日表现：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_win20.png" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_ic20.png" width="500" />
+</div>
+
+<p>近10日表现：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_win10.png" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_ic10.png" width="500" />
+</div>
+
+<p>近5日表现：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_win5.png" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_ic5.png" width="500" />
+</div>
+
+<p>近1日表现：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_win1.png" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_ic1.png" width="500" />
+</div>
+
+<h2 id="信号预测结果">信号预测结果</h2>
+
+<p>综合排序1 - 10：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_top0.png" />
+</div>
+
+<p>综合排序11 - 20：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_top1.png" />
+</div>
+
+<p>综合排序21 - 30：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_top2.png" />
+</div>
+
+<p>综合排序31 - 40：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_top3.png" />
+</div>
+
+<p>综合排序41 - 50：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_top4.png" />
+</div>
+
+<h2 id="watchlist">Watchlist</h2>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_watch.png" />
 </div>
 
 <h2 id="account">Account</h2>
@@ -21,6 +161,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align: center">DENSEMBLE (GBM)</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">模型集成</td>
+      <td style="text-align: center"><a href="/2024/10/16/densemblegbm.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
     <tr>
       <td style="text-align: center">PDF</td>
       <td style="text-align: center">ICLR 2024</td>
@@ -219,7 +366,7 @@
       <td style="text-align: center">TimeBridge</td>
     </tr>
     <tr>
-      <td style="text-align: center">XGB</td>
+      <td style="text-align: center">DENSEMBLEGBM</td>
       <td style="text-align: center">TimesNet</td>
       <td style="text-align: center">WFTNet</td>
       <td style="text-align: center">GBDTS</td>
@@ -235,7 +382,7 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_mpg_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_mpg_3.jpg" width="250" />
 <br />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/XGB_mpg_3.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_mpg_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_mpg_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_mpg_3.jpg" width="250" />
@@ -249,7 +396,7 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_1.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_1.jpg" width="250" />
 <br />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/XGB_rag_1.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_1.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_1.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_1.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_1.jpg" width="250" />
@@ -263,7 +410,7 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_2.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_2.jpg" width="250" />
 <br />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/XGB_rag_2.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_2.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_2.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_2.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_2.jpg" width="250" />
@@ -277,7 +424,7 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_3.jpg" width="250" />
 <br />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/XGB_rag_3.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_3.jpg" width="250" />
@@ -291,7 +438,7 @@
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_4.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_4.jpg" width="250" />
 <br />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/XGB_rag_4.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_4.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_4.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_4.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_4.jpg" width="250" />
@@ -352,65 +499,37 @@
 <p>综合排序41 - 50：</p>
 <div class="alert alert-light alert-more-info text-center">
 <img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_all_top4.png" />
-</div>]]></content><author><name></name></author><category term="开源项目" /><category term="更新中" /><summary type="html"><![CDATA[Qniverse（Quantitative Trading's Universe）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。]]></summary></entry><entry><title type="html">DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)</title><link href="http://localhost:4000/2024/12/01/dnf.html" rel="alternate" type="text/html" title="DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)" /><published>2024-12-01T00:00:00+08:00</published><updated>2024-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/01/dnf</id><content type="html" xml:base="http://localhost:4000/2024/12/01/dnf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="动画" /><category term="生成" /><summary type="html"><![CDATA[We propose DNF, a dictionary-based representation for the unconditional generation of 4D deforming shapes, with a transformer-based diffusion model. Our method is capable of generating motions with superior shape quality and temporal consistency.]]></summary></entry><entry><title type="html">LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)</title><link href="http://localhost:4000/2024/10/28/lcm.html" rel="alternate" type="text/html" title="LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)" /><published>2024-10-28T00:00:00+08:00</published><updated>2024-10-28T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/28/lcm</id><content type="html" xml:base="http://localhost:4000/2024/10/28/lcm.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="点云" /><summary type="html"><![CDATA[We propose a Locally constrained Compact point cloud Model (LCM) consisting of a locally constrained compact encoder and a locally constrained Mamba-based decoder. Our encoder replaces self-attention with our local aggregation layers to achieve an elegant balance between performance and efficiency. Considering the varying information density between masked and unmasked patches in the decoder inputs of MPM, we introduce a locally constrained Mamba-based decoder. This decoder ensures linear complexity while maximizing the perception of point cloud geometry information from unmasked patches with higher information density. Extensive experimental results show that our compact model significantly surpasses existing Transformer-based models in both performance and efficiency, especially our LCM-based Point-MAE model, compared to the Transformer-based model, achieved an improvement of 1.84%, 0.67%, and 0.60% in average accuracy on the three variants of ScanObjectNN while reducing parameters by 88% and computation by 73%.]]></summary></entry><entry><title type="html">GBDT</title><link href="http://localhost:4000/2024/10/16/gbdt.html" rel="alternate" type="text/html" title="GBDT" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/gbdt</id><content type="html" xml:base="http://localhost:4000/2024/10/16/gbdt.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
+</div>]]></content><author><name></name></author><category term="开源项目" /><category term="更新中" /><summary type="html"><![CDATA[Qniverse（Quantitative Trading's Universe）是一个基于前沿人工智能和机器学习技术的开源量化交易算法项目。项目涵盖从传统方法到深度神经网络等多种技术，致力于构建一个统一框架，为不同类型的量化算法提供公平、透明、开放的回测与评估系统。同时，项目通过适配现有的量化交易开源库，方便广大开发者进行灵活使用和高效测试。]]></summary></entry><entry><title type="html">DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)</title><link href="http://localhost:4000/2024/12/01/dnf.html" rel="alternate" type="text/html" title="DNF: Unconditional 4D Generation with Dictionary-based Neural Fields (arXiv)" /><published>2024-12-01T00:00:00+08:00</published><updated>2024-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/01/dnf</id><content type="html" xml:base="http://localhost:4000/2024/12/01/dnf.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="动画" /><category term="生成" /><summary type="html"><![CDATA[We propose DNF, a dictionary-based representation for the unconditional generation of 4D deforming shapes, with a transformer-based diffusion model. Our method is capable of generating motions with superior shape quality and temporal consistency.]]></summary></entry><entry><title type="html">LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)</title><link href="http://localhost:4000/2024/10/28/lcm.html" rel="alternate" type="text/html" title="LCM: Locally Constrained Compact Point Cloud Model for Masked Point Modeling (NeurIPS 2024)" /><published>2024-10-28T00:00:00+08:00</published><updated>2024-10-28T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/28/lcm</id><content type="html" xml:base="http://localhost:4000/2024/10/28/lcm.html"><![CDATA[]]></content><author><name></name></author><category term="开源项目" /><category term="3D" /><category term="点云" /><summary type="html"><![CDATA[We propose a Locally constrained Compact point cloud Model (LCM) consisting of a locally constrained compact encoder and a locally constrained Mamba-based decoder. Our encoder replaces self-attention with our local aggregation layers to achieve an elegant balance between performance and efficiency. Considering the varying information density between masked and unmasked patches in the decoder inputs of MPM, we introduce a locally constrained Mamba-based decoder. This decoder ensures linear complexity while maximizing the perception of point cloud geometry information from unmasked patches with higher information density. Extensive experimental results show that our compact model significantly surpasses existing Transformer-based models in both performance and efficiency, especially our LCM-based Point-MAE model, compared to the Transformer-based model, achieved an improvement of 1.84%, 0.67%, and 0.60% in average accuracy on the three variants of ScanObjectNN while reducing parameters by 88% and computation by 73%.]]></summary></entry><entry><title type="html">EG</title><link href="http://localhost:4000/2024/10/16/eg.html" rel="alternate" type="text/html" title="EG" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/eg</id><content type="html" xml:base="http://localhost:4000/2024/10/16/eg.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
 
-<p>LightGBM: a highly efficient gradient boosting decision tree （GBDT）：LightGBM是一种高效的GBDT实现，采用了两项关键技术来提升高维大数据场景下的效率与可扩展性：梯度一侧采样（GOSS）和互斥特征捆绑（EFB）。GOSS通过筛除梯度较小的数据实例，仅使用梯度较大的部分估算信息增益，从而在显著减少数据量的同时保持精度；EFB通过将互斥特征捆绑在一起，减少特征数量，优化计算开销。实验表明，LightGBM相比传统GBDT实现训练速度提升超过20倍，同时几乎不损失精度。</p>
+<p>On-Line Portfolio Selection Using Multiplicative Updates （EG）：本文提出了一种在线投资算法，其财富增长几乎与通过回顾实际市场结果确定的最佳恒定再平衡投资组合相当。该算法基于乘法更新规则，简单易实现，每个交易期内每只股票仅需常数存储和计算时间。</p>
 
 <h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gdbt_info.png" />
-</div>
-
-<h2 id="信号预测结果">信号预测结果</h2>
-
-<p>未来1日信号预测排序前10：</p>
-
-<div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gdbt_top10.png" />
-</div>
-
-<p>未来1日信号预测排序末10：</p>
-
-<div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gdbt_bottom10.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_info.png" />
 </div>
 
 <h2 id="回测结果报告">回测结果报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rg_0.jpg" />
 </div>
 
 <h2 id="风险分析报告">风险分析报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_1.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_2.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_3.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_rag_4.jpg" />
-</div>
-
-<h2 id="信号预测模型评估">信号预测模型评估</h2>
-
-<div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_sig_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_1.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_2.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_3.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_4.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdt_mpg_5.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/EG_rag_4.jpg" />
 </div>
 
 <h2 id="参考文献">参考文献</h2>
 
-<ul>
-  <li>Ke G, Meng Q, Finley T, et al. Lightgbm: A highly efficient gradient boosting decision tree[J]. Advances in neural information processing systems, 2017, 30.</li>
-</ul>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">UP</title><link href="http://localhost:4000/2024/10/16/up.html" rel="alternate" type="text/html" title="UP" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/up</id><content type="html" xml:base="http://localhost:4000/2024/10/16/up.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
+<p>-Helmbold D P, Schapire R E, Singer Y, et al. On‐line portfolio selection using multiplicative updates[J]. Mathematical Finance, 1998, 8(4): 325-347.</p>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">UP</title><link href="http://localhost:4000/2024/10/16/up.html" rel="alternate" type="text/html" title="UP" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/up</id><content type="html" xml:base="http://localhost:4000/2024/10/16/up.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
 
 <p>Universal Portfolios（UP）：UP是一种用于投资组合选择的算法，旨在通过不依赖于市场的预测或其他外部信息，自动地适应市场变化，从而实现长期财富最大化。该算法的核心思想是通过将资金分配到多个资产上，而不是仅仅依赖单一资产，来降低风险并提高回报。该方法能够在没有先验知识的情况下，通过自适应策略超越许多传统的投资方法，包括“最佳单一股票”或市场指数的表现。</p>
 
@@ -442,39 +561,55 @@
 
 <ul>
   <li>Cover T M. Universal portfolios[J]. Mathematical finance, 1991, 1(1): 1-29.</li>
-</ul>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">CORN</title><link href="http://localhost:4000/2024/10/16/corn.html" rel="alternate" type="text/html" title="CORN" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/corn</id><content type="html" xml:base="http://localhost:4000/2024/10/16/corn.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
-
-<p>CORN: Correlation-driven nonparametric learning approach for portfolio selection （CORN）：CORN通过非参数学习方法有效利用股票市场窗口之间的统计关系来进行股票交易。实验结果表明，CORN在多个大型历史和最新的真实股票市场上表现优异，显著超越市场指数、市场中表现最好的股票以及多种最新的先进技术，同时在无交易成本或低交易成本的情况下表现尤为出色。</p>
-
-<h2 id="模型信息">模型信息</h2>
+</ul>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">DENSEMBLEGBM</title><link href="http://localhost:4000/2024/10/16/densemblegbm.html" rel="alternate" type="text/html" title="DENSEMBLEGBM" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/densemblegbm</id><content type="html" xml:base="http://localhost:4000/2024/10/16/densemblegbm.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_info.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_info.png" />
+</div>
+
+<h2 id="信号预测结果">信号预测结果</h2>
+
+<p>未来1日信号预测排序前10：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_top10.png" />
+</div>
+
+<p>未来1日信号预测排序末10：</p>
+
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_bottom10.png" />
 </div>
 
 <h2 id="回测结果报告">回测结果报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rg_0.jpg" />
 </div>
 
 <h2 id="风险分析报告">风险分析报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_1.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_2.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_3.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/CORN_rag_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_4.jpg" />
 </div>
 
-<h2 id="参考文献">参考文献</h2>
+<h2 id="信号预测模型评估">信号预测模型评估</h2>
 
-<ul>
-  <li>Li B, Hoi S C H, Gopalkrishnan V. Corn: Correlation-driven nonparametric learning approach for portfolio selection[J]. ACM Transactions on Intelligent Systems and Technology (TIST), 2011, 2(3): 1-29.</li>
-</ul>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">PDF</title><link href="http://localhost:4000/2024/10/16/PDF.html" rel="alternate" type="text/html" title="PDF" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/PDF</id><content type="html" xml:base="http://localhost:4000/2024/10/16/PDF.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_sig_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_5.jpg" />
+</div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">PDF</title><link href="http://localhost:4000/2024/10/16/PDF.html" rel="alternate" type="text/html" title="PDF" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/PDF</id><content type="html" xml:base="http://localhost:4000/2024/10/16/PDF.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
 
 <p>Periodicity Decoupling Framework for Long-term Series Forecasting （PDF）：该算法提出了一种新的周期解耦框架（Periodicity Decoupling Framework, PDF），通过将一维时间序列解耦为二维时间变化模式，改进长时间序列预测性能。核心组件包括多周期解耦模块（MDB）、双变化建模模块（DVMB）和变化聚合模块（VAB），分别用于提取周期性特征、建模短期与长期变化以及生成最终预测。</p>
 
