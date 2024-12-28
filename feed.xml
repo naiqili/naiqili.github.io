@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-28T17:13:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse-private.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse-private</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse-private.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-28T19:09:19+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse-private.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse-private</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse-private.html"><![CDATA[<table>
   <thead>
     <tr>
       <th style="text-align: center">算法名称</th>
@@ -163,6 +163,13 @@
 </div>
 
 <h2 id="watchlist">Watchlist</h2>
+
+<p>原始预测：</p>
+<div class="alert alert-light alert-more-info text-center">
+<img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_raw_all_watch.png" />
+</div>
+
+<p>归一化预测：</p>
 <div class="alert alert-light alert-more-info text-center">
 <img src="https://raw.githubusercontent.com/naiqili/private_trade/refs/heads/main/tmp/ensemble_private_all_watch.png" />
 </div>
