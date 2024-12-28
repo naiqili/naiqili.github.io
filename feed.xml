@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-26T20:00:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse-private.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse-private</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse-private.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-28T17:13:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naiqi Li’s Homepage</title><subtitle>Naiqi Li&apos;s Homepage / 李乃琦的个人主页</subtitle><entry><title type="html">Qniverse</title><link href="http://localhost:4000/2024/12/04/qniverse-private.html" rel="alternate" type="text/html" title="Qniverse" /><published>2024-12-04T00:00:00+08:00</published><updated>2024-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2024/12/04/qniverse-private</id><content type="html" xml:base="http://localhost:4000/2024/12/04/qniverse-private.html"><![CDATA[<table>
   <thead>
     <tr>
       <th style="text-align: center">算法名称</th>
@@ -10,7 +10,21 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">DENSEMBLE (GBM)</td>
+      <td style="text-align: center">BENSEMBLE</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">模型集成</td>
+      <td style="text-align: center"><a href="/2024/10/16/bensemble.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NENSEMBLE</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">模型集成</td>
+      <td style="text-align: center"><a href="/2024/10/16/nensemble.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">DENSEMBLE</td>
       <td style="text-align: center">-</td>
       <td style="text-align: center">模型集成</td>
       <td style="text-align: center"><a href="/2024/10/16/densemblegbm.html">查看</a></td>
@@ -54,31 +68,41 @@
 <h3 id="月频icmonthly-ic">月频IC/Monthly IC</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_3.jpg" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_mpg_3.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_mpg_3.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_3.jpg" width="300" />
 </div>
 
 <h3 id="年化收益率annualized-return">年化收益率/Annualized Return</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_1.jpg" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_1.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_1.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_1.jpg" width="300" />
 </div>
 
 <h3 id="最大回撤max-drawdown">最大回撤/Max Drawdown</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_2.jpg" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_2.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_2.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_2.jpg" width="300" />
 </div>
 
 <h3 id="信息比率information-ratio">信息比率/Information Ratio</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_3.jpg" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_3.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_3.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_3.jpg" width="300" />
 </div>
 
 <h3 id="标准差std">标准差/STD</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_4.jpg" width="500" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_4.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_4.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_4.jpg" width="300" />
 </div>
 
 <h2 id="模型近期表现recent-performance">模型近期表现/Recent Performance</h2>
@@ -162,7 +186,21 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">DENSEMBLE (GBM)</td>
+      <td style="text-align: center">BENSEMBLE</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">模型集成</td>
+      <td style="text-align: center"><a href="/2024/10/16/bensemble.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NENSEMBLE</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">模型集成</td>
+      <td style="text-align: center"><a href="/2024/10/16/nensemble.html">查看</a></td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">DENSEMBLE</td>
       <td style="text-align: center">-</td>
       <td style="text-align: center">模型集成</td>
       <td style="text-align: center"><a href="/2024/10/16/densemblegbm.html">查看</a></td>
@@ -173,21 +211,21 @@
       <td style="text-align: center">ICLR 2024</td>
       <td style="text-align: center">信号预测</td>
       <td style="text-align: center"><a href="/2024/10/16/PDF.html">查看</a></td>
-      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
     </tr>
     <tr>
       <td style="text-align: center">TimeBridge</td>
       <td style="text-align: center">2024</td>
       <td style="text-align: center">信号预测</td>
       <td style="text-align: center"><a href="/2024/10/16/TimeBridge.html">查看</a></td>
-      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
     </tr>
     <tr>
       <td style="text-align: center">WFTNet</td>
       <td style="text-align: center">ICASSP 2024</td>
       <td style="text-align: center">信号预测</td>
       <td style="text-align: center"><a href="/2024/10/16/WFTNet.html">查看</a></td>
-      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
     </tr>
     <tr>
       <td style="text-align: center">TimeMixer</td>
@@ -201,21 +239,21 @@
       <td style="text-align: center">ICLR 2023</td>
       <td style="text-align: center">信号预测</td>
       <td style="text-align: center"><a href="/2024/10/16/PatchTST.html">查看</a></td>
-      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
     </tr>
     <tr>
       <td style="text-align: center">TimesNet</td>
       <td style="text-align: center">ICLR 2023</td>
       <td style="text-align: center">信号预测</td>
       <td style="text-align: center"><a href="/2024/10/16/TimesNet.html">查看</a></td>
-      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
     </tr>
     <tr>
       <td style="text-align: center">SegRNN</td>
       <td style="text-align: center">2023</td>
       <td style="text-align: center">信号预测</td>
       <td style="text-align: center"><a href="/2024/10/16/SegRNN.html">查看</a></td>
-      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
     </tr>
     <tr>
       <td style="text-align: center">GBDT ENSEMBLE</td>
@@ -243,7 +281,7 @@
       <td style="text-align: center">-</td>
       <td style="text-align: center">信号预测</td>
       <td style="text-align: center"><a href="/2024/10/16/XGB.html">查看</a></td>
-      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
     </tr>
     <tr>
       <td style="text-align: center">TCO</td>
@@ -360,15 +398,9 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">PatchTST</td>
-      <td style="text-align: center">PDF</td>
-      <td style="text-align: center">SegRNN</td>
-      <td style="text-align: center">TimeBridge</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">DENSEMBLEGBM</td>
-      <td style="text-align: center">TimesNet</td>
-      <td style="text-align: center">WFTNet</td>
+      <td style="text-align: center">BEnsemble</td>
+      <td style="text-align: center">NEnsemble</td>
+      <td style="text-align: center">DEnsemble</td>
       <td style="text-align: center">GBDTS</td>
     </tr>
   </tbody>
@@ -377,70 +409,47 @@
 <h3 id="月频icmonthly-ic">月频IC/Monthly IC</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PatchTST_mpg_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PDF_mpg_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_mpg_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_mpg_3.jpg" width="250" />
-<br />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_mpg_3.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_mpg_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_mpg_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_mpg_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_mpg_3.jpg" width="250" />
 </div>
 
 <h3 id="年化收益率annualized-return">年化收益率/Annualized Return</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PatchTST_rag_1.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PDF_rag_1.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_1.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_1.jpg" width="250" />
-<br />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_1.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_1.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_1.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_1.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_1.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_1.jpg" width="250" />
 </div>
 
 <h3 id="最大回撤max-drawdown">最大回撤/Max Drawdown</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PatchTST_rag_2.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PDF_rag_2.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_2.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_2.jpg" width="250" />
-<br />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_2.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_2.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_2.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_2.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_2.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_2.jpg" width="250" />
 </div>
 
 <h3 id="信息比率information-ratio">信息比率/Information Ratio</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PatchTST_rag_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PDF_rag_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_3.jpg" width="250" />
-<br />
+
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_3.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_3.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_3.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_3.jpg" width="250" />
 </div>
 
 <h3 id="标准差std">标准差/STD</h3>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PatchTST_rag_4.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/PDF_rag_4.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/SegRNN_rag_4.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimeBridge_rag_4.jpg" width="250" />
-<br />
+
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/BENSEMBLE_rag_4.jpg" width="250" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/NENSEMBLE_rag_4.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_4.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/TimesNet_rag_4.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/WFTNet_rag_4.jpg" width="250" />
 <img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/gbdts_rag_4.jpg" width="250" />
 </div>
 
@@ -561,12 +570,12 @@
 
 <ul>
   <li>Cover T M. Universal portfolios[J]. Mathematical finance, 1991, 1(1): 1-29.</li>
-</ul>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">DENSEMBLEGBM</title><link href="http://localhost:4000/2024/10/16/densemblegbm.html" rel="alternate" type="text/html" title="DENSEMBLEGBM" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/densemblegbm</id><content type="html" xml:base="http://localhost:4000/2024/10/16/densemblegbm.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
+</ul>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">DENSEMBLE</title><link href="http://localhost:4000/2024/10/16/densemble.html" rel="alternate" type="text/html" title="DENSEMBLE" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/densemble</id><content type="html" xml:base="http://localhost:4000/2024/10/16/densemble.html"><![CDATA[<h2 id="模型信息">模型信息</h2>
 
 <p>模型更新日期和预测日期：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_info.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_info.png" />
 </div>
 
 <h2 id="信号预测结果">信号预测结果</h2>
@@ -574,41 +583,41 @@
 <p>未来1日信号预测排序前10：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_top10.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_top10.png" />
 </div>
 
 <p>未来1日信号预测排序末10：</p>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_bottom10.png" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_bottom10.png" />
 </div>
 
 <h2 id="回测结果报告">回测结果报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_rg_0.jpg" />
 </div>
 
 <h2 id="风险分析报告">风险分析报告</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_1.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_2.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_3.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_rag_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_rag_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_rag_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_rag_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_rag_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_rag_4.jpg" />
 </div>
 
 <h2 id="信号预测模型评估">信号预测模型评估</h2>
 
 <div class="alert alert-light alert-more-info text-center">
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_sig_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_0.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_1.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_2.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_3.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_4.jpg" />
-<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLEGBM_mpg_5.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_sig_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_mpg_0.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_mpg_1.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_mpg_2.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_mpg_3.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_mpg_4.jpg" />
+<img src="https://raw.githubusercontent.com/naiqili/qniverse/refs/heads/main/tmp/DENSEMBLE_mpg_5.jpg" />
 </div>]]></content><author><name></name></author><category term="开源项目" /><summary type="html"><![CDATA[TODO]]></summary></entry><entry><title type="html">PDF</title><link href="http://localhost:4000/2024/10/16/PDF.html" rel="alternate" type="text/html" title="PDF" /><published>2024-10-16T00:00:00+08:00</published><updated>2024-10-16T00:00:00+08:00</updated><id>http://localhost:4000/2024/10/16/PDF</id><content type="html" xml:base="http://localhost:4000/2024/10/16/PDF.html"><![CDATA[<h2 id="算法介绍">算法介绍</h2>
 
 <p>Periodicity Decoupling Framework for Long-term Series Forecasting （PDF）：该算法提出了一种新的周期解耦框架（Periodicity Decoupling Framework, PDF），通过将一维时间序列解耦为二维时间变化模式，改进长时间序列预测性能。核心组件包括多周期解耦模块（MDB）、双变化建模模块（DVMB）和变化聚合模块（VAB），分别用于提取周期性特征、建模短期与长期变化以及生成最终预测。</p>
